@@ -134,3 +134,81 @@ photo_tab <-- When you take pictures
 setup_tab <-- ... wat?
 flow_tab  <-- No idea, there's only 3 tabs on my camera?
 ````
+
+Either way, we're eventually going to want to read and write that ... I wonder what it is they're sending over to the camera? Sadly, my attempts to get WireShark up and running in a useful fashion have failed for a multitude of reasons, so let's just dig into their code ([thank Android Decompiler!](http://www.decompileandroid.com/)). Some hunting around reveals the following:
+
+``` java
+// AEESocketClient.java
+// createPlainSocket(String host, int port, int timeout)
+mControlSock = PlainSocket.createPlainSocket(mRemoteAddr, 7878, 6000);
+```
+
+Ok, so not listening on HTTP anymore, we've got a raw socket to ```7878``` maybe. What's the command parameter format appear to be UTF-8 JSON:
+
+``` java
+    // AEESocketClient.java
+    protected void initStreams()
+        throws IOException
+    {
+        if (mControlSock != null)
+        {
+            if (mReader == null)
+            {
+                mReader = new InputStreamReader(mControlSock.getInputStream(), "UTF-8");
+            }
+            if (mWriter == null)
+            {
+                mWriter = new OutputStreamWriter(mControlSock.getOutputStream(), "UTF-8");
+            }
+        }
+    }
+    
+    public boolean isCmdSuc(String s)
+        throws IOException
+    {
+        Log.e("SocketClient", (new StringBuilder()).append("isCmdSuc : ").append(s).toString());
+        while (s == null || s.compareTo("ready") != 0 && s.compareTo("fail") == 0) 
+        {
+            return false;
+        }
+        return true;
+    }
+    
+    private JSONObject createAEECMD(int i, int j, int k, String s, String s1)
+    {
+        if (s == null && k == -1)
+        {
+            k = 0;
+        }
+        if (k == -1)
+        {
+            k = s.length();
+        }
+        JSONObject jsonobject = new JSONObject();
+        try
+        {
+            jsonobject.put("msg_id", i);
+            jsonobject.put("token", j);
+        }
+        catch (JSONException jsonexception)
+        {
+            jsonexception.printStackTrace();
+            return jsonobject;
+        }
+        if (s1 == null)
+        {
+            break MISSING_BLOCK_LABEL_65;
+        }
+        jsonobject.put("type", s1);
+        if (s == null)
+        {
+            break MISSING_BLOCK_LABEL_80;
+        }
+        jsonobject.put("param", s);
+        jsonobject.put("param_size", k);
+        return jsonobject;
+    }
+```
+
+Let's put that to the test:
+
