@@ -87,6 +87,8 @@ Well, no love there so let's take a look at ```/html``` and w00t! there's a ```r
 
 Well, no wonder it doesn't work and no wonder me clicking on the ```.ts``` streams ... I wasn't going to the right URL! So, I could fix the HTML ... but why fix it when we have VLC? Now we just take the ```rstp://192.168.42.1/live``` and toss it into VLC's open. Current review of the stream shows that it's ~2 sec behind actual live information; that sounds about right.
 
+```config``` file
+-----------------
 Well, now that we can stream, let's see what else we can do because JQuery was also listed. Wonder what's in that ```config``` file under ```/prefs```? It's mostly text:
 
 ```
@@ -123,3 +125,12 @@ So ... looking at the format, it might just be as simple as the following:
 options=1920x1080P 050f 16:09;1920x1080P 048f 16:09;... <-- possible settings?
 permission=settable                                     <-- if we're allowed to set it?
 ```
+
+Based on a quick review with the camera, the ```*_tab``` items are the same number of items on the camera, so I guess these are the names of them:
+
+```
+video_tab <-- Main video information, framerate, etc.
+photo_tab <-- When you take pictures
+setup_tab <-- ... wat?
+flow_tab  <-- No idea, there's only 3 tabs on my camera?
+````
