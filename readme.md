@@ -162,18 +162,18 @@ Ok, so not listening on HTTP anymore, we've got a raw socket to ```7878``` maybe
             }
         }
     }
-    
+
     public boolean isCmdSuc(String s)
         throws IOException
     {
         Log.e("SocketClient", (new StringBuilder()).append("isCmdSuc : ").append(s).toString());
-        while (s == null || s.compareTo("ready") != 0 && s.compareTo("fail") == 0) 
+        while (s == null || s.compareTo("ready") != 0 && s.compareTo("fail") == 0)
         {
             return false;
         }
         return true;
     }
-    
+
     private JSONObject createAEECMD(int i, int j, int k, String s, String s1)
     {
         if (s == null && k == -1)
@@ -212,3 +212,12 @@ Ok, so not listening on HTTP anymore, we've got a raw socket to ```7878``` maybe
 
 Let's put that to the test:
 
+```
+[wyatt@yogasploit:~]$ nc 192.168.42.1 7878
+
+{"rval": -7, "param_size": 0 }
+{"rval": -7, "param_size": 0 }
+{"rval": -7, "param_size": 0 }
+```
+
+Oh that's awesome, I can just read and write JSON? Wait ... port 7878 sounds really familiar, like I've heard about somewhere. So google just the port? Nothing useful. Google the AEE Magic Cam with the port? Nothing useful. Google "GoPro" with the port: [yep, I've heard it at DEFCON before](https://github.com/quine/GoProGTFO).
