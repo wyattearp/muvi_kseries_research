@@ -1,4 +1,4 @@
-Muvi K-Series Packet Fun
+Muvi K-Series Fun
 ------------------------
 I recently picked up a Muvi K-Series camera. Supposedly it works with Android ... but not really with 5.0.1. So I decided to start poking
 
