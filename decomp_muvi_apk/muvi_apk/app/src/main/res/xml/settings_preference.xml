@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:title="@string/ids_setting_dmr_title" android:key="@string/ids_setting_dmr_key" android:summary="@null" />
+    <Preference android:title="@string/ids_setting_dms_title" android:key="@string/ids_setting_dms_key" android:summary="@null" />
+    <Preference android:title="@string/ids_setting_wifi_title" android:key="@string/ids_setting_wifi_key" android:summary="@string/ids_setting_wifi_summary" />
+    <ListPreference android:entries="@array/ids_setting_download_destination" android:title="@string/ids_setting_download_destination" android:key="@string/ids_setting_download_destination_key" android:defaultValue="SD card" android:dialogTitle="@string/ids_setting_download_destination_dialog" android:negativeButtonText="@string/ids_common_cancel" android:entryValues="@array/ids_setting_download_destination" />
+    <PreferenceScreen android:title="@string/ids_setting_about" android:key="@string/ids_setting_about_key" />
+</PreferenceScreen>

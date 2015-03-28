@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="checked" format="boolean" />
+    <attr name="checkMark" format="reference" />
+</resources>

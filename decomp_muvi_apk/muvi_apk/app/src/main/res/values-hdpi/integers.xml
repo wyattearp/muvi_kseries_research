@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="Settings_SingleChoiceDialog_ViewHeight">260</integer>
+    <integer name="redey_prompt_txtsize">16</integer>
+    <integer name="redey_redeyborder_bottommargin">20</integer>
+    <integer name="preview_txtsize">16</integer>
+    <integer name="preview_hor_topmargin">5</integer>
+    <integer name="preview_hor_bottommargin">20</integer>
+    <integer name="preview_ver_leftmargin">5</integer>
+    <integer name="preview_ver_topmargin">75</integer>
+    <integer name="filterbar_animation_time">300</integer>
+    <integer name="actionbar_height">81</integer>
+    <integer name="filterbar_height">128</integer>
+    <integer name="leftrightmargin">20</integer>
+    <integer name="collage_template_w">380</integer>
+    <integer name="collage_template_h">540</integer>
+    <integer name="device_display_size">3</integer>
+    <integer name="thumb_size">150</integer>
+    <integer name="common_popmenu_window_y_offset">15</integer>
+</resources>

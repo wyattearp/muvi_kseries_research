@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="crop_popwindow_info">
+        <item>570</item>
+        <item>198</item>
+    </integer-array>
+    <integer-array name="render_selector_window_info">
+        <item>607</item>
+        <item>591</item>
+    </integer-array>
+    <integer-array name="dmc_tv_thumbnail_info">
+        <item>462</item>
+        <item>308</item>
+    </integer-array>
+</resources>

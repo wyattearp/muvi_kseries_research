@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="str_plural_picture_files">
+        <item quantity="other">%d file immagine</item>
+        <item quantity="one">1 file immagine</item>
+    </plurals>
+    <plurals name="str_collage_failed_decode_info">
+        <item quantity="other">Impossibile decodificare %d file! I file sono i seguenti:</item>
+        <item quantity="one">Impossibile decodificare 1 file. Il file è</item>
+    </plurals>
+</resources>

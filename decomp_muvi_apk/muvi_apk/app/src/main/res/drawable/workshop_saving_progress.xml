@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rotate android:fromDegrees="0.0" android:toDegrees="2160.0" android:pivotX="50.0%" android:pivotY="50.0%" android:repeatCount="infinite"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <shape android:shape="ring" android:innerRadiusRatio="3.0" android:thicknessRatio="9.0" android:useLevel="false">
+        <size android:height="@dimen/saving_progress_height" android:width="@dimen/saving_progress_width" />
+        <gradient android:startColor="@color/progress_start_color" android:endColor="@color/progress_end_color" android:useLevel="false" android:type="sweep" android:centerY="0.5" android:centerColor="@color/progress_center_color" />
+    </shape>
+</rotate>

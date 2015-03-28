@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="redey_prompt_txtsize">16</integer>
+    <integer name="redey_redeyborder_bottommargin">20</integer>
+    <integer name="preview_txtsize">16</integer>
+    <integer name="preview_hor_topmargin">5</integer>
+    <integer name="preview_hor_bottommargin">20</integer>
+    <integer name="preview_ver_leftmargin">5</integer>
+    <integer name="preview_ver_topmargin">75</integer>
+    <integer name="filterbar_animation_time">400</integer>
+    <integer name="actionbar_height">122</integer>
+    <integer name="filterbar_height">192</integer>
+    <integer name="leftrightmargin">10</integer>
+    <integer name="collage_template_w">400</integer>
+    <integer name="collage_template_h">540</integer>
+    <integer name="device_display_size">2</integer>
+    <integer name="thumb_size">150</integer>
+    <integer name="common_popmenu_window_y_offset">5</integer>
+</resources>

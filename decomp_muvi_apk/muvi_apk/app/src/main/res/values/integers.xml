@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="TimeLine_Thumb_Response_Width">80</integer>
+    <integer name="TimeLine_Cache_Count">50</integer>
+    <integer name="TimeLine_Animation_Critical_Spacing">2</integer>
+    <integer name="Subtitle_LanguageSpacing">17</integer>
+    <integer name="Subtitle_LanguageFontsize">22</integer>
+    <integer name="Subtitle_FontSize_BaseSize">30</integer>
+    <integer name="Subtitle_FontSizeSpacing">17</integer>
+    <integer name="Subtitle_FontColorSpacing">15</integer>
+    <integer name="BookMark_Gallery_Spacing">7</integer>
+    <integer name="IndexBar_Font_Size">16</integer>
+    <integer name="Info_Max_Lines">3</integer>
+    <integer name="Thumb_Video_Duration_Font_Size">28</integer>
+    <integer name="Setting_Switcher_ON_OFF_Padding">12</integer>
+    <integer name="RefreshView_Font_Size">22</integer>
+    <integer name="RefreshView_Bottom_Offset">10</integer>
+    <integer name="RefreshView_Min_Release_Height">100</integer>
+    <integer name="RefreshView_Max_Height">150</integer>
+</resources>

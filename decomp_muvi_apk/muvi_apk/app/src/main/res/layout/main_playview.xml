@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/list_bg_repeart" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.arcsoft.mediaplus.playview.RootPlayView android:id="@id/rootview" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <include layout="@layout/largeview_title_bar" />
+    <ImageView android:id="@id/anim_image" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <TextView android:textSize="25.0sp" android:textColor="@*android:color/white" android:ellipsize="marquee" android:gravity="center_vertical" android:id="@id/videotitle" android:background="@drawable/header" android:paddingLeft="10.0px" android:paddingRight="10.0px" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+    <ImageButton android:id="@id/pushback" android:background="@drawable/button_pushback" android:focusable="false" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/videotitle" android:layout_centerHorizontal="true" />
+    <ImageButton android:id="@id/pushto" android:background="@drawable/button_pushto" android:focusable="false" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/videotitle" android:layout_centerHorizontal="true" />
+    <ImageView android:id="@id/btn_center_play" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/media_plus_btn_center_play" android:layout_centerInParent="true" />
+    <include layout="@layout/largeview_control_bar" />
+    <RelativeLayout android:id="@id/info_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:id="@id/info_bg_max" android:layout_width="@dimen/MediaPlus_File_Info_Dialog_Width" android:layout_height="fill_parent" android:layout_marginTop="@dimen/MediaPlus_File_Info_Dialog_Margin_Bottom" android:layout_marginBottom="@dimen/MediaPlus_File_Info_Dialog_Margin_Bottom" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+            <RelativeLayout android:id="@id/info_bg" android:background="@drawable/info_bg" android:layout_width="@dimen/MediaPlus_File_Info_Dialog_Width" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+                <ImageView android:id="@id/info_close" android:padding="@dimen/MediaPlus_File_Info_Close_Icon_Padding" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/info_close_icon" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+                <TextView android:scrollbarAlwaysDrawVerticalTrack="true" android:scrollbarStyle="insideInset" android:textColor="#ffffffff" android:id="@id/info_content" android:paddingLeft="@dimen/MediaPlus_File_Info_Content_PaddingLeft" android:paddingTop="@dimen/MediaPlus_File_Info_Content_Padding" android:paddingRight="@dimen/MediaPlus_File_Info_Content_Padding" android:paddingBottom="@dimen/MediaPlus_File_Info_Content_Padding" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/MediaPlus_File_Info_OK_Button_Margin_Bottom" android:scrollHorizontally="false" android:singleLine="false" android:layout_below="@id/info_close" android:layout_alignParentLeft="true" android:lineSpacingExtra="3.0dip" android:lineSpacingMultiplier="1.5" android:fadeScrollbars="false" />
+                <RelativeLayout android:layout_width="@dimen/MediaPlus_File_Info_OK_Layout_Width" android:layout_height="@dimen/MediaPlus_File_Info_OK_Layout_Height" android:layout_below="@id/info_content" android:layout_centerHorizontal="true">
+                    <Button android:gravity="center" android:id="@id/info_ok" android:layout_width="@dimen/MediaPlus_File_Info_OK_Button_Width" android:layout_height="@dimen/MediaPlus_File_Info_OK_Button_Height" android:layout_marginBottom="@dimen/MediaPlus_File_Info_OK_Button_Margin_Bottom" android:text="@string/ids_common_close" />
+                </RelativeLayout>
+            </RelativeLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

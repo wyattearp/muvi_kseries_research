@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="@dimen/Trim_Save_DialogLayout_Width" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@drawable/alert_dialog_titlebar_bg" android:layout_width="fill_parent" android:layout_height="@dimen/Trim_Save_DialogLayout_TitleHeight">
+        <ImageView android:id="@id/Icon_Image" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/Trim_Save_DialogLayout_Title_Margin_Left" android:src="@drawable/warning" android:layout_centerVertical="true" />
+        <TextView android:textSize="@dimen/Trim_Save_Title_TextSize" android:id="@id/Title_Text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/Trim_Save_DialogLayout_Title_Margin_Left" android:text="@string/str_Trim_Dialog_Title" android:layout_toRightOf="@id/Icon_Image" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <RelativeLayout android:background="@drawable/alert_dialog_titlebar_content_bg" android:layout_width="fill_parent" android:layout_height="@dimen/Trim_Save_DialogLayout_ProgressInfo_Height">
+        <TextView android:textSize="@dimen/Trim_Save_ProgressValue_TextSize" android:id="@id/progressValue_Text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/Trim_Save_DialogLayout_Content_Margin_Left" android:layout_marginTop="@dimen/Trim_Save_ProgressText_Content_Margin_Top" android:text="xxxxxxxxxx" />
+        <ProgressBar android:id="@id/progressBar_trim" android:layout_width="@dimen/Trim_Save_ProgressBar_LayWidth" android:layout_height="@dimen/Trim_Save_ProgressBar_LayHeight" android:layout_marginLeft="@dimen/Trim_Save_DialogLayout_Content_Margin_Left" android:layout_marginTop="@dimen/Trim_Save_ProgressBar_LayMarginTop" android:layout_marginRight="@dimen/Trim_Save_DialogLayout_Content_Margin_Right" android:max="100" android:progressDrawable="@drawable/trim_progress_style" android:layout_below="@id/progressValue_Text" style="@android:style/Widget.ProgressBar.Horizontal" />
+    </RelativeLayout>
+    <RelativeLayout android:background="@drawable/alert_dialog_bottombar_bg" android:layout_width="fill_parent" android:layout_height="@dimen/Trim_Save_CancelLayout_Height">
+        <Button android:id="@id/cancel_trim" android:background="@drawable/btn_trim_dialog_cancel" android:layout_width="@dimen/Trim_Save_CancelBtn_LayWidht" android:layout_height="wrap_content" android:text="@string/Cancel" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="str_plural_picture_files">
+        <item quantity="other">%d圖片檔案</item>
+        <item quantity="one">1個圖片檔案</item>
+    </plurals>
+    <plurals name="str_collage_failed_decode_info">
+        <item quantity="other">%d個檔案無法成功解碼。此些檔案是：</item>
+        <item quantity="one">1個檔案無法成功解碼。此檔案是：</item>
+    </plurals>
+</resources>

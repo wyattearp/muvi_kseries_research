@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/list_bg_repeart" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/collage_topbar" android:background="@drawable/top_bar_bg_repeat" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+        <Button android:id="@id/collage_cancel_btn" android:background="@drawable/back_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/cropbar_cancelbtn_marginleft" android:layout_marginRight="@dimen/cropbar_donebtn_marginright" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/left_divider" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/title_bar_divider" android:layout_toRightOf="@id/collage_cancel_btn" android:layout_centerVertical="true" />
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/collage_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+        <ImageView android:id="@id/right_divider" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/title_bar_divider" android:layout_toLeftOf="@id/collage_more_btn" android:layout_centerVertical="true" />
+        <Button android:id="@id/collage_more_btn" android:background="@drawable/common_more_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/cropbar_donebtn_marginright" android:layout_marginRight="@dimen/cropbar_cancelbtn_marginleft" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/content_part" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/collage_topbar">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true">
+            <Button android:id="@id/collage_prev_style" android:background="@drawable/collage_arrow_prev" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+            <com.arcsoft.mediaplus.collage.CollageSurfaceView android:id="@id/collagesurfaceview" android:layout_width="@dimen/collage_picture_w" android:layout_height="@dimen/collage_picture_h" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+            <Button android:id="@id/collage_next_style" android:background="@drawable/collage_arrow_next" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

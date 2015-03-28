@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/UpDownloadManager" android:background="@drawable/list_bg_repeart" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="18.0sp" android:textColor="#ffffffff" android:gravity="center" android:layout_gravity="center" android:id="@id/title" android:background="@drawable/bar_bg" android:layout_width="fill_parent" android:layout_height="40.0sp" android:text="@string/ids_menu_updownload_manager" />
+    <com.arcsoft.mediaplus.updownload.UpDownloadListView android:id="@id/ManageListView" android:background="#00000000" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:listSelector="@drawable/updownload_manager_list_state" android:cacheColorHint="#00000000" android:divider="@drawable/divider_style" android:dividerHeight="0.0px" android:footerDividersEnabled="true" />
+    <RelativeLayout android:id="@id/no_task_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true">
+        <TextView android:textSize="20.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ids_updownload_warning_no_task" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</LinearLayout>

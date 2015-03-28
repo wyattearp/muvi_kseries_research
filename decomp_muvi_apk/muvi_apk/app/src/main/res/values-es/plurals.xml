@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="str_plural_picture_files">
+        <item quantity="other">%d archivos de imágenes</item>
+        <item quantity="one">1 archivo de imágenes</item>
+    </plurals>
+    <plurals name="str_collage_failed_decode_info">
+        <item quantity="other">¡%d archivos no se pueden descodificar correctamente! Los archivos son los siguientes:</item>
+        <item quantity="one">1 archivo no se pudo descodificar correctamente. El archivo es</item>
+    </plurals>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/common_popmenu_item_height" android:maxHeight="@dimen/common_popmenu_item_height" android:minHeight="@dimen/common_popmenu_item_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/workshop_menu_cover" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/commmon_popmenu_magin_left" android:layout_marginRight="@dimen/commmon_popmenu_magin_right" android:layout_centerVertical="true" />
+    <TextView android:textSize="@dimen/common_popmenu_text_size" android:id="@id/workshop_menu_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/workshop_menu_cover" android:layout_centerVertical="true" />
+</RelativeLayout>

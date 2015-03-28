@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.arcsoft.mediaplus.TitleBar android:id="@id/title_whole_layout" android:background="@drawable/top_bar_bg_repeat" android:layout_width="fill_parent" android:layout_height="@dimen/MediaPlus_TitleBar_Height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/title_left_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/media_plus_btn_back" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    <ImageView android:id="@id/left_divider" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/title_bar_divider" android:layout_toRightOf="@id/title_left_btn" android:layout_centerVertical="true" />
+    <TextView android:textSize="@dimen/Title_Item_Text_Size" android:textColor="#ffffffff" android:gravity="center" android:id="@id/center_text_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_centerInParent="true">
+        <RelativeLayout android:id="@id/remote_local_switcher_layout" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <ImageView android:id="@id/title_remote_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/media_plus_btn_remote" android:layout_centerVertical="true" />
+            <SeekBar android:scrollbarStyle="insideOverlay" android:id="@id/remote_local_switcher" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:visibility="visible" android:layout_width="@dimen/MediaPlus_Title_Switcher_Width" android:layout_height="@dimen/MediaPlus_Title_Switcher_Height" android:maxWidth="@dimen/MediaPlus_Title_Switcher_Width" android:maxHeight="@dimen/MediaPlus_Title_Switcher_Height" android:secondaryProgress="0" android:progressDrawable="@drawable/switcher_bg" android:minWidth="@dimen/MediaPlus_Title_Switcher_Width" android:minHeight="@dimen/MediaPlus_Title_Switcher_Height" android:thumb="@drawable/switcher_thumb" android:layout_toRightOf="@id/title_remote_btn" android:layout_centerVertical="true" />
+            <ImageView android:id="@id/title_local_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/media_plus_btn_local" android:layout_toRightOf="@id/remote_local_switcher" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <TextView android:textSize="@dimen/Title_Item_Text_Size" android:textColor="#ffffffff" android:gravity="center" android:id="@id/count_media_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+        <TextView android:textSize="@dimen/Title_Item_Text_Size" android:textColor="#ffffffff" android:gravity="center" android:id="@id/count_selected_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+    </RelativeLayout>
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/title_bar_divider" android:layout_toLeftOf="@id/title_right_btn" android:layout_centerVertical="true" />
+    <ImageView android:id="@id/title_right_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/media_plus_btn_setting" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</com.arcsoft.mediaplus.TitleBar>

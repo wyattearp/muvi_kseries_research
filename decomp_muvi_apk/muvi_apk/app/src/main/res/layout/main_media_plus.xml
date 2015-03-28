@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/list_bg_repeart" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/title_bar" />
+    <RelativeLayout android:id="@id/listView_Layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/title_whole_layout">
+        <RelativeLayout android:id="@id/EmptyText_Layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/MediaPlus_ControlBar_Height">
+            <TextView android:textSize="20.0sp" android:textColor="@color/black" android:ellipsize="marquee" android:gravity="center" android:id="@id/empty_text" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/top_bar_shadow" android:scaleType="centerCrop" />
+        <ImageView android:id="@id/media_refresh_btn" android:visibility="gone" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="5.0dip" android:src="@drawable/btn_refresh" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <include layout="@layout/control_bar" />
+    <RelativeLayout android:id="@id/media_progress" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ProgressBar android:layout_width="wrap_content" android:layout_height="wrap_content" android:secondaryProgress="0" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/no_sdcard_layout" android:background="@drawable/list_bg_repeart" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/title_whole_layout">
+        <ImageView android:id="@id/no_sdcard_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/no_sdcard" android:layout_centerInParent="true" />
+        <TextView android:textSize="15.0sp" android:textColor="#ff4d3f37" android:id="@id/no_sdcard_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/no_sdcard" android:layout_below="@id/no_sdcard_image" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="easytransfer_range_values">
+        <item>3</item>
+        <item>7</item>
+        <item>14</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="slideshow_intervals_values">
+        <item>1000</item>
+        <item>6000</item>
+        <item>10000</item>
+    </string-array>
+    <string-array name="slideshow_effects_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="ids_setting_download_destination">
+        <item>Internal flash memory</item>
+        <item>SD card</item>
+    </string-array>
+    <string-array name="channels">
+        <item>primary</item>
+        <item>secondary</item>
+        <item>stereo</item>
+    </string-array>
+    <string-array name="tracks">
+        <item>track</item>
+    </string-array>
+    <string-array name="ids_easytransfer_range_values">
+        <item>Within 3 day</item>
+        <item>Within 1 week</item>
+        <item>Within 2 week</item>
+        <item>No limit</item>
+    </string-array>
+    <string-array name="transfer_dialog_execute_delete">
+        <item>Execute Easy transfer</item>
+        <item>Delete Easy transfer registration</item>
+    </string-array>
+    <string-array name="transfer_dialog_cancel">
+        <item>Cancel Easy transfer</item>
+    </string-array>
+    <string-array name="slideshow_effects">
+        <item>Fade in&amp;amp;out</item>
+        <item>Slide in (right to left)</item>
+        <item>Slide in (top to down)</item>
+    </string-array>
+    <string-array name="slideshow_intervals">
+        <item>Short</item>
+        <item>Standard</item>
+        <item>Long</item>
+    </string-array>
+    <string-array name="cmd_items_string">
+        <item>Resolution</item>
+        <item>AE Meter</item>
+        <item>AWB Mode</item>
+        <item>EV Bias</item>
+        <item>Sharpness</item>
+        <item>Contrast</item>
+        <item>Saturation</item>
+        <item>Microphone Volume</item>
+        <item>Digital Effect</item>
+        <item>Flicker</item>
+        <item>Photo Quality</item>
+        <item>Photo Stamp</item>
+        <item>Video Quality</item>
+        <item>Video Stamp</item>
+        <item>Auto Power Off</item>
+        <item>Date Time</item>
+        <item>Card Free Space</item>
+        <item>Restore Default Setting</item>
+    </string-array>
+    <string-array name="cmd_Resolution_string">
+        <item>1080p30</item>
+        <item>960p30</item>
+        <item>720p30</item>
+        <item>720p60</item>
+        <item>5M_3s</item>
+        <item>5M_5s</item>
+        <item>5M_15s</item>
+        <item>5M_30s</item>
+    </string-array>
+    <string-array name="cmd_AE_Meter_string">
+        <item>Center</item>
+        <item>Average</item>
+        <item>Spot</item>
+    </string-array>
+    <string-array name="cmd_AWB_Mode_string">
+        <item>Auto</item>
+        <item>Incandescent</item>
+        <item>D4000</item>
+        <item>D5000</item>
+        <item>Sunny</item>
+        <item>Cloudy</item>
+        <item>Flash</item>
+    </string-array>
+    <string-array name="cmd_EV_Bias_string">
+        <item>-2EV</item>
+        <item>-1EV</item>
+        <item>0EV</item>
+        <item>+1EV</item>
+        <item>+2EV</item>
+    </string-array>
+    <string-array name="cmd_Sharpness_string">
+        <item>Soft</item>
+        <item>Standard</item>
+        <item>Hard</item>
+    </string-array>
+    <string-array name="cmd_Contrast_string">
+        <item>Soft</item>
+        <item>Standard</item>
+        <item>Hard</item>
+    </string-array>
+    <string-array name="cmd_Digital_Effect_string">
+        <item>Off</item>
+        <item>Art</item>
+        <item>Sepia</item>
+        <item>Negative</item>
+        <item>Black White</item>
+        <item>Vivid</item>
+    </string-array>
+    <string-array name="cmd_Flicker_string">
+        <item>Auto</item>
+        <item>60Hz</item>
+        <item>50Hz</item>
+    </string-array>
+    <string-array name="cmd_Photo_Quality_string">
+        <item>Super Fine</item>
+        <item>Fine</item>
+        <item>Normal</item>
+        <item>Auto</item>
+    </string-array>
+    <string-array name="cmd_Photo_Stamp_string">
+        <item>Off</item>
+        <item>Date</item>
+        <item>Time</item>
+        <item>Date and Time</item>
+    </string-array>
+    <string-array name="cmd_Video_Quality_string">
+        <item>Super Fine</item>
+        <item>Fine</item>
+        <item>Normal</item>
+    </string-array>
+    <string-array name="cmd_Video_Stamp_string">
+        <item>Off</item>
+        <item>Date</item>
+        <item>Time</item>
+        <item>Date and Time</item>
+    </string-array>
+    <string-array name="cmd_Video_Output_System_string">
+        <item>NTSC_30</item>
+        <item>PAL_25</item>
+    </string-array>
+    <string-array name="item_Set_Data_Time_string">
+        <item>Set data</item>
+        <item>Set time</item>
+    </string-array>
+    <string-array name="item_crop_setting_size">
+        <item>1:1</item>
+        <item>2:3</item>
+        <item>3:2</item>
+        <item>4:3</item>
+        <item>3:4</item>
+        <item>16:9</item>
+        <item>9:16</item>
+        <item>Free</item>
+    </string-array>
+    <string-array name="item_setting_content_access">
+        <item>Quick download</item>
+        <item>Original files</item>
+    </string-array>
+</resources>

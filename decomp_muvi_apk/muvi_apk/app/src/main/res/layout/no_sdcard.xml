@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/no_sdcard_layout" android:background="@drawable/list_bg_repeart" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/no_sdcard_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/no_sdcard" android:layout_centerInParent="true" />
+    <TextView android:textSize="15.0sp" android:textColor="#ff4d3f37" android:id="@id/no_sdcard_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/no_sdcard" android:layout_below="@id/no_sdcard_image" android:layout_centerHorizontal="true" />
+</RelativeLayout>

@@ -221,3 +221,5 @@ Let's put that to the test:
 ```
 
 Oh that's awesome, I can just read and write JSON? Wait ... port 7878 sounds really familiar, like I've heard about somewhere. So google just the port? Nothing useful. Google the AEE Magic Cam with the port? Nothing useful. Google "GoPro" with the port: [yep, I've heard it at DEFCON before](https://github.com/quine/GoProGTFO).
+
+At this point, I think I'm done. Based on what I can see, the Muvi is a rip-off of the AEE action camera, which is pretty much a rip-off of the GoPro. I've added the de-compiled source code for anyone else that would like to carry on from where I've stopped digging since VEHO's support line hasn't been supportive or helpful.

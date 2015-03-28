@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingRight="?android:scrollbarSize" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeight"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/CMD_Name_Text_Size" android:textColor="#ff000000" android:gravity="center_vertical" android:id="@id/cmd_title" android:paddingRight="@dimen/Device_Check_Icon_PaddingRight" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:singleLine="true" />
+    <TextView android:textSize="@dimen/CMD_Val_Text_Size" android:textColor="#50121212" android:gravity="right|center" android:id="@id/cmd_item" android:paddingRight="@dimen/Device_Check_Icon_PaddingRight" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0" />
+    <ImageView android:layout_gravity="center" android:id="@id/cmd_more" android:visibility="gone" android:layout_width="25.0dip" android:layout_height="25.0dip" android:src="@drawable/more" android:scaleType="centerCrop" />
+</LinearLayout>

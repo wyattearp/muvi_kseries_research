@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ids_setting_download_destination">
+        <item>內建快閃記憶體</item>
+        <item>SD卡</item>
+    </string-array>
+    <string-array name="channels">
+        <item>主要的</item>
+        <item>次要的</item>
+        <item>身歷聲</item>
+    </string-array>
+    <string-array name="tracks">
+        <item>路徑</item>
+    </string-array>
+    <string-array name="ids_easytransfer_range_values">
+        <item>3天之內</item>
+        <item>1周之內</item>
+        <item>2周之內</item>
+        <item>無限制</item>
+    </string-array>
+    <string-array name="transfer_dialog_execute_delete">
+        <item>進行簡便傳送</item>
+        <item>刪除簡便傳送註冊</item>
+    </string-array>
+    <string-array name="transfer_dialog_cancel">
+        <item>取消簡便傳送</item>
+    </string-array>
+    <string-array name="slideshow_effects">
+        <item>淡入與淡出</item>
+        <item>滑入（右到左）</item>
+        <item>滑入（上到下）</item>
+    </string-array>
+    <string-array name="slideshow_intervals">
+        <item>短</item>
+        <item>標準</item>
+        <item>長</item>
+    </string-array>
+    <string-array name="cmd_items_string">
+        <item>解析度</item>
+        <item>AE測光</item>
+        <item>AWB模式</item>
+        <item>EV補償</item>
+        <item>銳利度</item>
+        <item>對比度</item>
+        <item>飽和度</item>
+        <item>麥克風音量</item>
+        <item>數位效果</item>
+        <item>閃爍</item>
+        <item>照片品質</item>
+        <item>照片郵票</item>
+        <item>視訊品質</item>
+        <item>視訊郵票</item>
+        <item>自動關機</item>
+        <item>日期時間</item>
+        <item>記憶卡剩餘空間</item>
+        <item>恢復默認設定</item>
+    </string-array>
+    <string-array name="cmd_Resolution_string">
+        <item>1080p30</item>
+        <item>960p30</item>
+        <item>720p30</item>
+        <item>720p60</item>
+        <item>5M_3s</item>
+        <item>5M_5s</item>
+        <item>5M_15s</item>
+        <item>5M_30s</item>
+    </string-array>
+    <string-array name="cmd_AE_Meter_string">
+        <item>中心</item>
+        <item>平均測光</item>
+        <item>聚光集中</item>
+    </string-array>
+    <string-array name="cmd_AWB_Mode_string">
+        <item>自動</item>
+        <item>白熾燈</item>
+        <item>D4000</item>
+        <item>D5000</item>
+        <item>陽光</item>
+        <item>陰天</item>
+        <item>閃光燈</item>
+    </string-array>
+    <string-array name="cmd_EV_Bias_string">
+        <item>-2EV</item>
+        <item>-1EV</item>
+        <item>0EV</item>
+        <item>+1EV</item>
+        <item>+2EV</item>
+    </string-array>
+    <string-array name="cmd_Sharpness_string">
+        <item>柔和</item>
+        <item>標準</item>
+        <item>清晰</item>
+    </string-array>
+    <string-array name="cmd_Contrast_string">
+        <item>柔和</item>
+        <item>標準</item>
+        <item>清晰</item>
+    </string-array>
+    <string-array name="cmd_Digital_Effect_string">
+        <item>關閉</item>
+        <item>藝術</item>
+        <item>深褐色</item>
+        <item>負片</item>
+        <item>黑白</item>
+        <item>生動</item>
+    </string-array>
+    <string-array name="cmd_Flicker_string">
+        <item>自動</item>
+        <item>60Hz</item>
+        <item>50Hz</item>
+    </string-array>
+    <string-array name="cmd_Photo_Quality_string">
+        <item>優質</item>
+        <item>好</item>
+        <item>標準</item>
+        <item>自動</item>
+    </string-array>
+    <string-array name="cmd_Photo_Stamp_string">
+        <item>關閉</item>
+        <item>日期</item>
+        <item>時間</item>
+        <item>日期和時間</item>
+    </string-array>
+    <string-array name="cmd_Video_Quality_string">
+        <item>優質</item>
+        <item>好</item>
+        <item>標準</item>
+    </string-array>
+    <string-array name="cmd_Video_Stamp_string">
+        <item>關閉</item>
+        <item>日期</item>
+        <item>時間</item>
+        <item>日期和時間</item>
+    </string-array>
+    <string-array name="cmd_Video_Output_System_string">
+        <item>NTSC_30</item>
+        <item>PAL_25</item>
+    </string-array>
+    <string-array name="item_Set_Data_Time_string">
+        <item>設定日期</item>
+        <item>設定時間</item>
+    </string-array>
+    <string-array name="item_crop_setting_size">
+        <item>1:1</item>
+        <item>2:3</item>
+        <item>3:2</item>
+        <item>4:3</item>
+        <item>3:4</item>
+        <item>16:9</item>
+        <item>9:16</item>
+        <item>不受限制</item>
+    </string-array>
+    <string-array name="item_setting_content_access">
+        <item>快速下載</item>
+        <item>原始檔案</item>
+    </string-array>
+</resources>

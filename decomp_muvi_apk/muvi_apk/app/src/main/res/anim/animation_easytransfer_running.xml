@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="250" android:drawable="@drawable/ic_progress_easytransfer_run0" />
+    <item android:duration="250" android:drawable="@drawable/ic_progress_easytransfer_run1" />
+    <item android:duration="250" android:drawable="@drawable/ic_progress_easytransfer_run2" />
+    <item android:duration="250" android:drawable="@drawable/ic_progress_easytransfer_run3" />
+</animation-list>

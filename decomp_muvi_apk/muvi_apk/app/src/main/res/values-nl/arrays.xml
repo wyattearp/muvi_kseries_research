@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ids_setting_download_destination">
+        <item>Intern flashgeheugen</item>
+        <item>Sd-kaart</item>
+    </string-array>
+    <string-array name="channels">
+        <item>primair</item>
+        <item>secundair</item>
+        <item>stereo</item>
+    </string-array>
+    <string-array name="tracks">
+        <item>spoor</item>
+    </string-array>
+    <string-array name="ids_easytransfer_range_values">
+        <item>Binnen 3 dagen</item>
+        <item>Binnen 1 week</item>
+        <item>Binnen 2 week</item>
+        <item>Geen beperking</item>
+    </string-array>
+    <string-array name="transfer_dialog_execute_delete">
+        <item>Eenvoudige overdracht uitvoeren</item>
+        <item>Registratie van Eenvoudige overdracht verwijderen</item>
+    </string-array>
+    <string-array name="transfer_dialog_cancel">
+        <item>Eenvoudige overdracht annuleren</item>
+    </string-array>
+    <string-array name="slideshow_effects">
+        <item>Fade in&amp;amp;uit</item>
+        <item>Inschuiven (van rechts naar links)</item>
+        <item>Inschuiven (van boven naar onder)</item>
+    </string-array>
+    <string-array name="slideshow_intervals">
+        <item>Kort</item>
+        <item>Standaard</item>
+        <item>Lang</item>
+    </string-array>
+    <string-array name="cmd_items_string">
+        <item>Resolutie</item>
+        <item>AE-meter</item>
+        <item>AWB-modus</item>
+        <item>EV-compensatie</item>
+        <item>Scherpte</item>
+        <item>Contrast</item>
+        <item>Verzadiging</item>
+        <item>Microfoonvolume</item>
+        <item>Digitaal effect</item>
+        <item>Knipperen</item>
+        <item>Fotokwaliteit</item>
+        <item>Fotostempel</item>
+        <item>Videokwaliteit</item>
+        <item>Videostempel</item>
+        <item>Automatisch uitschakelen</item>
+        <item>Datum tijd</item>
+        <item>Vrije ruimte op kaart</item>
+        <item>Standaardinstelling herstellen</item>
+    </string-array>
+    <string-array name="cmd_Resolution_string">
+        <item>1080p30</item>
+        <item>960p30</item>
+        <item>720p30</item>
+        <item>720p60</item>
+        <item>5M_3s</item>
+        <item>5M_5s</item>
+        <item>5M_15s</item>
+        <item>5M_30s</item>
+    </string-array>
+    <string-array name="cmd_AE_Meter_string">
+        <item>Midden</item>
+        <item>Gemiddeld</item>
+        <item>Schijnwerper</item>
+    </string-array>
+    <string-array name="cmd_AWB_Mode_string">
+        <item>Automatisch</item>
+        <item>Gloeilampen</item>
+        <item>D4000</item>
+        <item>D5000</item>
+        <item>Zonnig</item>
+        <item>Bewolkt</item>
+        <item>Flits</item>
+    </string-array>
+    <string-array name="cmd_EV_Bias_string">
+        <item>-2EV</item>
+        <item>-1EV</item>
+        <item>0EV</item>
+        <item>+1EV</item>
+        <item>+2EV</item>
+    </string-array>
+    <string-array name="cmd_Sharpness_string">
+        <item>Zacht</item>
+        <item>Standaard</item>
+        <item>Hard</item>
+    </string-array>
+    <string-array name="cmd_Contrast_string">
+        <item>Zacht</item>
+        <item>Standaard</item>
+        <item>Hard</item>
+    </string-array>
+    <string-array name="cmd_Digital_Effect_string">
+        <item>Uit</item>
+        <item>Kunst</item>
+        <item>Sepia</item>
+        <item>Negatief</item>
+        <item>Zwart/wit</item>
+        <item>Levendig</item>
+    </string-array>
+    <string-array name="cmd_Flicker_string">
+        <item>Automatisch</item>
+        <item>60Hz</item>
+        <item>50Hz</item>
+    </string-array>
+    <string-array name="cmd_Photo_Quality_string">
+        <item>Supergoed</item>
+        <item>Goed</item>
+        <item>Normaal</item>
+        <item>Automatisch</item>
+    </string-array>
+    <string-array name="cmd_Photo_Stamp_string">
+        <item>Uit</item>
+        <item>Datum</item>
+        <item>Tijd</item>
+        <item>Datum en tijd</item>
+    </string-array>
+    <string-array name="cmd_Video_Quality_string">
+        <item>Supergoed</item>
+        <item>Goed</item>
+        <item>Normaal</item>
+    </string-array>
+    <string-array name="cmd_Video_Stamp_string">
+        <item>Uit</item>
+        <item>Datum</item>
+        <item>Tijd</item>
+        <item>Datum en tijd</item>
+    </string-array>
+    <string-array name="cmd_Video_Output_System_string">
+        <item>NTSC_30</item>
+        <item>PAL_25</item>
+    </string-array>
+    <string-array name="item_Set_Data_Time_string">
+        <item>Datum instelle</item>
+        <item>Tijd instellen</item>
+    </string-array>
+    <string-array name="item_crop_setting_size">
+        <item>1:1</item>
+        <item>2:3</item>
+        <item>3:2</item>
+        <item>4:3</item>
+        <item>3:4</item>
+        <item>16:9</item>
+        <item>9:16</item>
+        <item>Free</item>
+    </string-array>
+    <string-array name="item_setting_content_access">
+        <item>Snel downloaden</item>
+        <item>Originele bestanden</item>
+    </string-array>
+</resources>

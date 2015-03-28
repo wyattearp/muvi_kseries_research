@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListView android:id="@id/list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:drawSelectorOnTop="false" android:layout_weight="1.0" />
+    <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:id="@id/btndone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ids_easytransfer_done" android:layout_weight="1.0" />"
+<Button android:id="@id/btnrevert" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ids_easytransfer_revert" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

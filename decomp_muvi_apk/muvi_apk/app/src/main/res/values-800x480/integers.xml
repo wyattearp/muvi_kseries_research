@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="Info_Max_Lines">3</integer>
+    <integer name="Thumb_Video_Duration_Font_Size">18</integer>
+    <integer name="Setting_Switcher_ON_OFF_Padding">8</integer>
+    <integer name="Settings_SingleChoiceDialog_ViewHeight">260</integer>
+</resources>

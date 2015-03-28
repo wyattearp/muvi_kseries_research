@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_menu_sort" android:id="@id/IDM_SORT" android:title="@string/ids_sort_title" />
+    <item android:icon="@drawable/ic_menu_update" android:id="@id/IDM_REFRESH" android:title="@string/ids_common_refresh" />
+</menu>

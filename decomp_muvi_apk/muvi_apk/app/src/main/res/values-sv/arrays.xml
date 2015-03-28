@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ids_setting_download_destination">
+        <item>Internt flashminne</item>
+        <item>SD-kort</item>
+    </string-array>
+    <string-array name="channels">
+        <item>primär</item>
+        <item>underordnad</item>
+        <item>stereo</item>
+    </string-array>
+    <string-array name="tracks">
+        <item>spår</item>
+    </string-array>
+    <string-array name="ids_easytransfer_range_values">
+        <item>Inom 3 dagar</item>
+        <item>Inom 1 vecka</item>
+        <item>Inom 2 vecka</item>
+        <item>Ingen gräns</item>
+    </string-array>
+    <string-array name="transfer_dialog_execute_delete">
+        <item>Utför enkel överföring</item>
+        <item>Ta bort enkel överföring registrering</item>
+    </string-array>
+    <string-array name="transfer_dialog_cancel">
+        <item>Annullera enkel överföring</item>
+    </string-array>
+    <string-array name="slideshow_effects">
+        <item>Tona in&amp;amp;ut</item>
+        <item>Skjut in (höger till vänster)</item>
+        <item>Skjut in (uppifrån och ner)</item>
+    </string-array>
+    <string-array name="slideshow_intervals">
+        <item>Kort</item>
+        <item>Standard</item>
+        <item>Lång</item>
+    </string-array>
+    <string-array name="cmd_items_string">
+        <item>Upplösning</item>
+        <item>AE Meter</item>
+        <item>AWB-läge</item>
+        <item>EV bias</item>
+        <item>Skärpa</item>
+        <item>Kontrast</item>
+        <item>Mättnad</item>
+        <item>Mikrofonvolym</item>
+        <item>Digital effekt</item>
+        <item>Flimmer</item>
+        <item>Fotokvalitet</item>
+        <item>Fotostämpel</item>
+        <item>Videokvalitet</item>
+        <item>Videostämpel</item>
+        <item>Automatisk avstängning</item>
+        <item>Datum och tid</item>
+        <item>Ledigt kortutrymme</item>
+        <item>Återställ standardinställningar</item>
+    </string-array>
+    <string-array name="cmd_Resolution_string">
+        <item>1080p30</item>
+        <item>960p30</item>
+        <item>720p30</item>
+        <item>720p60</item>
+        <item>5M_3s</item>
+        <item>5M_5s</item>
+        <item>5M_15s</item>
+        <item>5M_30s</item>
+    </string-array>
+    <string-array name="cmd_AE_Meter_string">
+        <item>Center</item>
+        <item>Genomsnitt</item>
+        <item>Punkt</item>
+    </string-array>
+    <string-array name="cmd_AWB_Mode_string">
+        <item>Automatisk</item>
+        <item>Bländande</item>
+        <item>D4000</item>
+        <item>D5000</item>
+        <item>Soligt</item>
+        <item>Molnigt</item>
+        <item>Flash</item>
+    </string-array>
+    <string-array name="cmd_EV_Bias_string">
+        <item>-2EV</item>
+        <item>-1EV</item>
+        <item>0EV</item>
+        <item>+1EV</item>
+        <item>+2EV</item>
+    </string-array>
+    <string-array name="cmd_Sharpness_string">
+        <item>Lugnt</item>
+        <item>Standard</item>
+        <item>Hård</item>
+    </string-array>
+    <string-array name="cmd_Contrast_string">
+        <item>Lugnt</item>
+        <item>Standard</item>
+        <item>Hård</item>
+    </string-array>
+    <string-array name="cmd_Digital_Effect_string">
+        <item>Av</item>
+        <item>Konst</item>
+        <item>Sepia</item>
+        <item>Negativ</item>
+        <item>Svart Vit</item>
+        <item>Livlig</item>
+    </string-array>
+    <string-array name="cmd_Flicker_string">
+        <item>Automatisk</item>
+        <item>60Hz</item>
+        <item>50Hz</item>
+    </string-array>
+    <string-array name="cmd_Photo_Quality_string">
+        <item>Superfin</item>
+        <item>Fin</item>
+        <item>Normal</item>
+        <item>Automatisk</item>
+    </string-array>
+    <string-array name="cmd_Photo_Stamp_string">
+        <item>Av</item>
+        <item>Datum</item>
+        <item>Tid</item>
+        <item>Datum och tid</item>
+    </string-array>
+    <string-array name="cmd_Video_Quality_string">
+        <item>Superfin</item>
+        <item>Fin</item>
+        <item>Normal</item>
+    </string-array>
+    <string-array name="cmd_Video_Stamp_string">
+        <item>Av</item>
+        <item>Datum</item>
+        <item>Tid</item>
+        <item>Datum och tid</item>
+    </string-array>
+    <string-array name="cmd_Video_Output_System_string">
+        <item>NTSC_30</item>
+        <item>PAL_25</item>
+    </string-array>
+    <string-array name="item_Set_Data_Time_string">
+        <item>Ange data</item>
+        <item>Ange tid</item>
+    </string-array>
+    <string-array name="item_crop_setting_size">
+        <item>1:1</item>
+        <item>2:3</item>
+        <item>3:2</item>
+        <item>4:3</item>
+        <item>3:4</item>
+        <item>16:9</item>
+        <item>9:16</item>
+        <item>Gratis</item>
+    </string-array>
+    <string-array name="item_setting_content_access">
+        <item>Snabbnedladdning</item>
+        <item>Originalfiler</item>
+    </string-array>
+</resources>

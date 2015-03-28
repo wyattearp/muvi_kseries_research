@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/ids_menu_slide_show_setting"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference android:entries="@array/slideshow_effects" android:title="@string/ids_slideshow_title_effect" android:key="@string/ids_slideshow_key_effect" android:defaultValue="1" android:dialogTitle="@string/ids_slideshow_title_effect" android:negativeButtonText="@string/ids_common_cancel" android:entryValues="@array/slideshow_effects_values" />
+    <ListPreference android:entries="@array/slideshow_intervals" android:title="@string/ids_slideshow_title_interval" android:key="@string/ids_slideshow_key_interval" android:defaultValue="1000" android:dialogTitle="@string/ids_slideshow_title_interval" android:negativeButtonText="@string/ids_common_cancel" android:entryValues="@array/slideshow_intervals_values" />
+</PreferenceScreen>

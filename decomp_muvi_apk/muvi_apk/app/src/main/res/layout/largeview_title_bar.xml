@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/largeview_title_bar" android:background="@drawable/top_bar_bg_repeat" android:layout_width="fill_parent" android:layout_height="@dimen/MediaPlus_TitleBar_Height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/btn_back" android:background="@drawable/media_plus_btn_back" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/title_bar_divider" android:layout_toRightOf="@id/btn_back" android:layout_centerVertical="true" />
+    <TextView android:textSize="@dimen/Title_Item_Text_Size" android:textColor="#ffffffff" android:id="@id/text_current_index" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="current_index" android:layout_centerInParent="true" />
+    <ImageView android:id="@id/info_divider" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/title_bar_divider" android:layout_toLeftOf="@id/btn_file_info" android:layout_centerVertical="true" />
+    <ImageView android:id="@id/btn_file_info" android:background="@drawable/media_plus_btn_info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</RelativeLayout>

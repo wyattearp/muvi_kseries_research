@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="crop_popwindow_info">
+        <item>376</item>
+        <item>132</item>
+    </integer-array>
+    <integer-array name="render_selector_window_info">
+        <item>411</item>
+        <item>376</item>
+    </integer-array>
+    <integer-array name="dmc_playinglist_thumbnail_info">
+        <item>80</item>
+        <item>80</item>
+    </integer-array>
+    <integer-array name="dmc_tv_thumbnail_info">
+        <item>316</item>
+        <item>210</item>
+    </integer-array>
+</resources>

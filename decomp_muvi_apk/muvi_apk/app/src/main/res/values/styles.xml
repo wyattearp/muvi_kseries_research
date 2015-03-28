@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="top_screen_tab">
+        <item name="android:textSize">22.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="top_screen_btn">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="top_screen_device">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="Transparent" parent="@*android:style/Theme.NoTitleBar">
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+    <style name="Loading" parent="@*android:style/Theme.Dialog">
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+    <style name="filterbar_thumnail_style">
+        <item name="android:background">@drawable/workshop_thumnail_bkg</item>
+        <item name="android:layout_width">@dimen/filterbar_thumnail_width</item>
+        <item name="android:layout_height">@dimen/filterbar_thumnail_height</item>
+        <item name="android:scaleType">centerInside</item>
+    </style>
+    <style name="filterbar_thumnailtxt_style">
+        <item name="android:textSize">@dimen/filterbar_thumnailtxt_size</item>
+        <item name="android:textColor">@*android:color/white</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">@dimen/filterbar_thumnail_width</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/filterbar_thumnail_margintop</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+    <style name="collagescrollbar_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/filterbar_thumnail_firstmarginleft</item>
+    </style>
+    <style name="popup_wheel_anim_style">
+        <item name="android:windowEnterAnimation">@anim/popup_show</item>
+        <item name="android:windowExitAnimation">@anim/popup_hide</item>
+    </style>
+    <style name="NoTitleBar" parent="@*android:style/Theme.NoTitleBar">
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/dmc_playback_title_bar" android:background="@drawable/top_bar_bg_repeat" android:layout_width="fill_parent" android:layout_height="@dimen/MediaPlus_TitleBar_Height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/dmc_btn_back" android:background="@drawable/media_plus_btn_back" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    <ImageView android:id="@id/dmc_left_divider" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/title_bar_divider" android:layout_toRightOf="@id/dmc_btn_back" android:layout_centerVertical="true" />
+    <TextView android:textSize="@dimen/Title_Item_Text_Size" android:textColor="#ffffffff" android:ellipsize="marquee" android:gravity="center" android:id="@id/dmc_title" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scrollHorizontally="true" android:singleLine="true" android:layout_toLeftOf="@id/dmc_right_divider" android:layout_toRightOf="@id/dmc_left_divider" android:layout_centerInParent="true" android:marqueeRepeatLimit="marquee_forever" />
+    <ImageView android:id="@id/dmc_right_divider" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/title_bar_divider" android:layout_toLeftOf="@id/dmc_btn_switcher" android:layout_centerVertical="true" />
+    <ImageView android:id="@id/dmc_btn_switcher" android:background="@drawable/btn_dmc_playlist" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</RelativeLayout>

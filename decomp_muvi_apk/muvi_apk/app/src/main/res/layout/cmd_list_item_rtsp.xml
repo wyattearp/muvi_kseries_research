@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/rtsp_listPreferredItemHeight"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/cmd_layout" android:paddingRight="?android:scrollbarSize" android:layout_width="fill_parent" android:layout_height="@dimen/rtsp_listPreferredItemHeight">
+        <TextView android:textSize="@dimen/CMD_Name_Text_Size" android:textColor="#ff000000" android:gravity="center_vertical" android:id="@id/cmd_title" android:paddingLeft="0.0dip" android:paddingRight="@dimen/Rtsp_Setting_Big_PaddingRight" android:layout_width="wrap_content" android:layout_height="fill_parent" android:singleLine="true" />
+        <TextView android:textSize="@dimen/CMD_Val_Text_Size" android:textColor="#55121212" android:gravity="right|center" android:id="@id/cmd_item" android:paddingRight="@dimen/Rtsp_Setting_Big_PaddingRight" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:singleLine="true" />
+        <TextView android:textSize="@dimen/Setting_On_Off_Size" android:textColor="#ffffffff" android:id="@id/cmd_item_switcher" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="2.0dip" />
+    </LinearLayout>
+</LinearLayout>

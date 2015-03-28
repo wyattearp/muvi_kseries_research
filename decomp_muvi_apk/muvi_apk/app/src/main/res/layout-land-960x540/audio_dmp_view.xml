@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/view_bg" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/album_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" android:layout_centerVertical="true">
+        <RelativeLayout android:layout_width="154.0dip" android:layout_height="154.0dip">
+            <ImageView android:id="@id/albumart" android:layout_width="150.0dip" android:layout_height="150.0dip" android:layout_marginLeft="2.0dip" android:layout_marginTop="2.0dip" android:scaleType="fitXY" android:adjustViewBounds="true" />
+        </RelativeLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="20.0dip" android:layout_centerVertical="true">
+            <TableLayout android:gravity="left" android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/album_info" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="100.0px" android:layout_marginTop="20.0px" android:stretchColumns="1" android:shrinkColumns="1" android:layout_weight="2.0">
+                <TableRow>
+                    <TextView android:textSize="22.0sp" android:textColor="#ffffffff" android:gravity="right" android:id="@id/audio_title" android:background="#00000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0px" android:text="@string/ids_info_item_title" android:singleLine="true" android:layout_weight="1.0" />
+                    <TextView android:textSize="20.0sp" android:textColor="#ffffffff" android:id="@id/audio_title_info" android:background="#00000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:singleLine="true" android:layout_weight="2.0" />
+                </TableRow>
+                <TableRow>
+                    <TextView android:textSize="22.0sp" android:textColor="#ffffffff" android:gravity="right" android:id="@id/audio_size" android:background="#00000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0px" android:text="@string/ids_info_size" android:singleLine="true" android:layout_weight="1.0" />
+                    <TextView android:textSize="20.0sp" android:textColor="#ffffffff" android:id="@id/audio_size_info" android:background="#00000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:singleLine="true" android:layout_weight="2.0" />
+                </TableRow>
+                <TableRow>
+                    <TextView android:textSize="22.0sp" android:textColor="#ffffffff" android:gravity="right" android:id="@id/audio_year" android:background="#00000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0px" android:text="@string/ids_info_date" android:singleLine="true" android:layout_weight="1.0" />
+                    <TextView android:textSize="20.0sp" android:textColor="#ffffffff" android:id="@id/audio_year_info" android:background="#00000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:singleLine="true" android:layout_weight="2.0" />
+                </TableRow>
+            </TableLayout>
+            <TextView android:textSize="20.0sp" android:textColor="#ffffffff" android:gravity="right|center" android:id="@id/audio_nextinfo" android:background="#00000000" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="150.0px" android:text=">> Next " android:singleLine="true" />
+        </LinearLayout>
+    </LinearLayout>
+    <include layout="@layout/media_control_bar" />
+    <ImageView android:id="@id/btn_repeat" android:layout_width="40.0px" android:layout_height="40.0px" android:layout_marginTop="40.0px" android:layout_marginRight="40.0px" android:src="@drawable/repeat_none" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+    <ImageView android:id="@id/btn_shuffle" android:layout_width="40.0px" android:layout_height="40.0px" android:layout_marginTop="40.0px" android:layout_marginRight="40.0px" android:src="@drawable/shuffle_off" android:layout_toLeftOf="@id/btn_repeat" />
+</RelativeLayout>

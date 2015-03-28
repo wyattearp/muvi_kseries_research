@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/home/wyatt/AndroidstudioProjects/muvi_apk/app/src/main/assets"><file name="fonts/DS-DIGI.TTF" path="/home/wyatt/AndroidstudioProjects/muvi_apk/app/src/main/assets/fonts/DS-DIGI.TTF"/><file name="MV3Plugin.ini" path="/home/wyatt/AndroidstudioProjects/muvi_apk/app/src/main/assets/MV3Plugin.ini"/></source></dataSet><dataSet config="debug"><source path="/home/wyatt/AndroidstudioProjects/muvi_apk/app/src/debug/assets"/></dataSet></merger>

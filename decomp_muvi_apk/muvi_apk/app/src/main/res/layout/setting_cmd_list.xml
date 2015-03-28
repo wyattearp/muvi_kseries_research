@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@drawable/list_bg_repeart" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/title_bar" android:background="@drawable/top_bar_bg_repeat" android:layout_width="fill_parent" android:layout_height="@dimen/MediaPlus_TitleBar_Height" android:layout_alignParentTop="true">
+        <ImageView android:id="@id/back_btn" android:background="@drawable/media_plus_btn_back" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/title_bar_divider" android:layout_toRightOf="@id/back_btn" android:layout_centerVertical="true" />
+        <TextView android:textSize="@dimen/Title_Item_Text_Size" android:textColor="#ffffffff" android:id="@id/text_current_index" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str_rtsp_camera_title" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <ListView android:scrollbarStyle="outsideOverlay" android:gravity="center" android:id="@id/cmd_list" android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="20.0dip" android:listSelector="@*android:color/transparent" android:scrollingCache="false" android:divider="@drawable/list_line" android:layout_below="@id/title_bar" />
+</RelativeLayout>

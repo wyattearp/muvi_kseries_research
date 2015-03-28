@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/largeview_title_bar" android:background="@drawable/top_bar_bg_repeat" android:layout_width="fill_parent" android:layout_height="@dimen/MediaPlus_TitleBar_Height" android:layout_alignParentTop="true"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <ImageView android:id="@id/setting_back" android:background="@drawable/media_plus_btn_back" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/title_bar_divider" android:layout_toRightOf="@id/setting_back" android:layout_centerVertical="true" />
+        <TextView android:textSize="@dimen/Title_Item_Text_Size" android:textColor="#ffffffff" android:id="@id/text_current_index" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ids_setting_about" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="horizontal" android:paddingLeft="10.0sp" android:paddingTop="5.0sp" android:paddingRight="10.0sp" android:paddingBottom="5.0sp" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <LinearLayout android:orientation="vertical" android:paddingLeft="10.0sp" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/app_name" />
+            <TextView android:gravity="center_vertical" android:id="@id/version" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+    <ImageView android:paddingTop="3.0sp" android:paddingBottom="3.0sp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/dialog_divider_horizontal_light" />
+    <ScrollView android:id="@id/ScrollView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:paddingLeft="10.0sp" android:paddingTop="5.0sp" android:paddingRight="10.0sp" android:paddingBottom="5.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/about" />
+    </ScrollView>
+    <ImageView android:paddingTop="3.0sp" android:paddingBottom="3.0sp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/dialog_divider_horizontal_light" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="10.0sp" android:paddingTop="5.0sp" android:paddingRight="10.0sp" android:paddingBottom="5.0sp" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:paddingLeft="5.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/arcsoft_logo" />
+        <TextView android:gravity="right|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/copyright" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

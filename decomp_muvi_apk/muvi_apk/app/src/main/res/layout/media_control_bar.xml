@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/control" android:layout_width="fill_parent" android:layout_height="120.0px" android:layout_alignParentBottom="true">
+        <RelativeLayout android:layout_gravity="bottom" android:id="@id/mediatime_bar_top" android:background="@drawable/bar_transparent" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="12.0sp" android:gravity="left" android:id="@id/text_pos" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="00:00" android:layout_alignParentLeft="true" />
+            <TextView android:textSize="12.0sp" android:gravity="right" android:id="@id/text_dur" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="00:00" android:layout_alignTop="@id/text_pos" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+        <LinearLayout android:orientation="vertical" android:background="@drawable/media_player_bar" android:layout_width="fill_parent" android:layout_height="105.0px">
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.arcsoft.mediaplus.widget.ChapterSeekBar android:id="@id/seekbar" android:layout_width="fill_parent" android:layout_height="10.0px" android:maxHeight="10.0dip" android:progressDrawable="@drawable/seekbar_style" android:minHeight="10.0dip" android:thumb="@drawable/seekbar_thume" android:layout_below="@id/text_pos" />
+            </RelativeLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="80.0px" android:layout_centerHorizontal="true">
+                <ImageView android:id="@id/btn_previous" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/previous_btn" android:scaleType="fitCenter" android:layout_weight="1.0" />
+                <ImageView android:id="@id/btn_pause" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btn_pause" android:layout_weight="1.0" />
+                <ImageView android:id="@id/btn_next" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/next_btn" android:layout_weight="1.0" />
+                <ImageView android:id="@id/volume_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btn_mute_off" android:layout_weight="1.0" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/ids_easytransfer_setting">
+        <Preference android:title="@string/ids_easytransfer_name" android:key="@string/ids_easytransfer_name_key" />
+        <ListPreference android:entries="@array/ids_easytransfer_range_values" android:title="@string/ids_easytransfer_range" android:key="@string/ids_easytransfer_range_key" android:summary="@null" android:dialogTitle="@string/ids_easytransfer_range" android:entryValues="@array/easytransfer_range_values" />
+        <Preference android:title="@string/ids_easytransfer_time" android:key="@string/ids_easytransfer_time_key" android:summary="@null" />
+        <CheckBoxPreference android:title="@string/ids_easytransfer_move" android:key="@string/ids_easytransfer_move_key" android:summary="@null" />
+        <CheckBoxPreference android:title="@string/ids_easytransfer_power" android:key="@string/ids_easytransfer_power_key" android:summary="@null" />
+    </PreferenceCategory>
+</PreferenceScreen>

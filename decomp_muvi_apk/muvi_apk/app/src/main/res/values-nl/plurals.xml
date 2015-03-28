@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="str_plural_picture_files">
+        <item quantity="other">%d afbeeldingsbestanden</item>
+        <item quantity="one">1 afbeeldingsbestand</item>
+    </plurals>
+    <plurals name="str_collage_failed_decode_info">
+        <item quantity="other">%d bestanden kunnen niet worden gedecodeerd! De bestanden zijn:</item>
+        <item quantity="one">1 bestand kan niet worden gedecodeerd. Het bestand is</item>
+    </plurals>
+</resources>

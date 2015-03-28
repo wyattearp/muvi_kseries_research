@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="#ffffffff" android:gravity="center" android:id="@id/title" android:background="@color/gray" android:layout_width="fill_parent" android:layout_height="40.0sp" android:text="@string/ids_easytransfer_list" android:layout_alignParentTop="true" />
+    <com.arcsoft.mediaplus.updownload.EasyTransferRegisterListView android:id="@id/register_listview" android:background="@color/black" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:cacheColorHint="@color/black" android:divider="@drawable/divider_style" android:dividerHeight="1.0px" android:layout_below="@id/title" android:fadeScrollbars="false" />
+    <LinearLayout android:gravity="center" android:background="@color/gray" android:layout_width="fill_parent" android:layout_height="40.0sp" android:layout_alignParentBottom="true">
+        <Button android:layout_gravity="center_vertical" android:id="@id/register_new" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ids_easytransfer_new" />
+    </LinearLayout>
+    <RelativeLayout android:id="@id/no_register_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true">
+        <TextView android:textSize="20.0sp" android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ids_easytransfer_list_no_contents" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</RelativeLayout>

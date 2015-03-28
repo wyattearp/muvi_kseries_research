@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="str_plural_picture_files">
+        <item quantity="other">%d bildfiler</item>
+        <item quantity="one">1 bildfil</item>
+    </plurals>
+    <plurals name="str_collage_failed_decode_info">
+        <item quantity="other">%d filer kan inte avkodas! Filerna är som följer:</item>
+        <item quantity="one">Det går inte att avkoda 1 fil. Filen är</item>
+    </plurals>
+</resources>

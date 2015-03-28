@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.arcsoft.mediaplus.ControlBar android:id="@id/control_bar_layout" android:background="@drawable/bottom_bar_bg_repeat" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/MediaPlus_ControlBar_Height" android:layout_alignParentBottom="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="#ffffffff" android:textColorHighlight="#ffc1c1c1" android:gravity="center" android:id="@id/cancel_all_btn" android:background="@drawable/media_plus_btn_download_all" android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ids_common_cancel" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <TextView android:textColor="#ffffffff" android:textColorHighlight="#ffc1c1c1" android:gravity="center" android:id="@id/download_all_btn" android:background="@drawable/media_plus_btn_download_all" android:layout_width="@dimen/download_btn_width" android:layout_height="wrap_content" android:text="@string/str_download_all" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    <ImageView android:id="@id/back_to_preview_btn" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/remote_view_control_margin_dis" android:src="@drawable/back_preview_btn" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    <ImageView android:id="@id/change_to_select_btn" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/media_plus_btn_select_mode" android:layout_centerInParent="true" />
+    <LinearLayout android:gravity="center_vertical" android:id="@id/select_view_control_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/share_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/media_plus_btn_share" android:layout_weight="1.0" />
+        <ImageView android:id="@id/playto_btn" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btn_playto" android:layout_weight="1.0" />
+        <ImageView android:id="@id/collage_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/collage_btn" android:layout_weight="1.0" />
+        <ImageView android:id="@id/delete_selected_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/media_plus_btn_delete" android:layout_weight="1.0" />
+    </LinearLayout>
+    <RelativeLayout android:id="@id/remote_view_control_layout" android:paddingLeft="@dimen/remote_view_control_margin_dis" android:paddingRight="@dimen/remote_view_control_margin_dis" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/change_to_select_btn_left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/media_plus_btn_select_mode" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/download_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/media_plus_btn_download" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</com.arcsoft.mediaplus.ControlBar>

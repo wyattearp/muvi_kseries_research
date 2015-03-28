@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/trim_title_Layout" android:background="@drawable/top_bar_bg_repeat" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+        <Button android:id="@id/trim_exit_btn" android:background="@drawable/back_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/cropbar_cancelbtn_marginleft" android:layout_marginRight="@dimen/cropbar_donebtn_marginright" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/title_bar_divider" android:layout_toRightOf="@id/trim_exit_btn" android:layout_centerVertical="true" />
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="@dimen/Trim_StrTextView_Textsize" android:id="@id/trim_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str_Trim" android:layout_centerInParent="true" />
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/title_bar_divider" android:layout_toLeftOf="@id/trim_more_btn" android:layout_centerVertical="true" />
+        <Button android:id="@id/trim_more_btn" android:background="@drawable/common_more_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/cropbar_cancelbtn_marginleft" android:layout_marginRight="@dimen/cropbar_donebtn_marginright" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <AbsoluteLayout android:id="@id/trim_gallery_Layout" android:background="@drawable/trim_bar_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/trim_title_Layout">
+        <AbsoluteLayout android:id="@id/trim_MainOper_Layout" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <AbsoluteLayout android:id="@id/trim_Thumbnail_OperLayout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_y="@dimen/Trim_Main_OperLayout_Lay_Y" />
+            <AbsoluteLayout android:id="@id/trim_Indicate_OperLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_x="@dimen/Trim_Indicate_OperLayout_Lay_X" android:layout_y="@dimen/Trim_Main_OperLayout_Lay_Y">
+                <ImageView android:id="@id/trim_left_mask_Imageview" android:background="@drawable/trim_mask" android:visibility="invisible" android:layout_width="@dimen/Trim_Indicate_Mask_Width" android:layout_height="wrap_content" />
+                <ImageView android:id="@id/trim_left_ImageView" android:background="@drawable/trim_l_normal" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <ImageView android:id="@id/trim_right_mask_Imageview" android:background="@drawable/trim_mask" android:visibility="invisible" android:layout_width="@dimen/Trim_Indicate_Mask_Width" android:layout_height="wrap_content" />
+                <ImageView android:id="@id/trim_right_ImageView" android:background="@drawable/trim_r_normal" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </AbsoluteLayout>
+        </AbsoluteLayout>
+        <ImageView android:id="@id/trim_locate_bar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/locate_timeline" android:layout_x="@dimen/TrimBar_Center_Pos_LayX" android:layout_y="@dimen/TrimBar_Center_Pos_LayY" />
+    </AbsoluteLayout>
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/trim_bottom_Layout" android:layout_below="@id/trim_gallery_Layout">
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <com.arcsoft.videotrim.VESurfaceView android:id="@id/Trim_surfaceView" android:layout_width="fill_parent" android:layout_height="@dimen/SurfaceView_Height" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <TextView android:textSize="@dimen/Trim_Time_TextView_TextSize" android:textColor="@color/white" android:gravity="center" android:id="@id/Trim_Time_Text" android:background="@drawable/time_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/Trim_Time_TextView_LayMarginTop" android:layout_marginRight="@dimen/Trim_Time_TextView_LayMarginRight" android:text="" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/trim_bottom_Layout" android:background="@drawable/bottom_bar_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <Button android:id="@id/trim_start_btn" android:background="@drawable/btn_trim_start" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/Trim_Start_Btn_LayMarginLeft" android:layout_centerVertical="true" />
+        <Button android:id="@id/trim_end_btn" android:background="@drawable/btn_trim_end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/trim_start_btn" android:layout_centerVertical="true" />
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <Button android:id="@id/trim_play_btn" android:background="@drawable/btn_trim_play" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <Button android:id="@id/trim_pause_btn" android:background="@drawable/btn_trim_pause" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/Trim_Zoom_Btn_LayMarginRight" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+            <Button android:id="@id/trim_spread_btn" android:background="@drawable/btn_trim_spread" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/trim_pinch_btn" />
+            <Button android:id="@id/trim_pinch_btn" android:background="@drawable/btn_trim_pinch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

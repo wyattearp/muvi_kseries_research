@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/view_bg" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/main_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/main_top">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/leftpanel" android:background="@drawable/btn_bg" android:layout_width="120.0px" android:layout_height="fill_parent">
+            <RelativeLayout android:gravity="center" android:layout_width="100.0px" android:layout_height="100.0px" android:layout_weight="1.0">
+                <TextView android:textStyle="bold" android:textColor="#ffffffff" android:gravity="center_horizontal" android:id="@id/channel_tb" android:paddingTop="45.0px" android:layout_width="100.0px" android:layout_height="100.0px" android:text="地上D" />
+            </RelativeLayout>
+            <RelativeLayout android:gravity="center" android:layout_width="100.0px" android:layout_height="100.0px" android:layout_weight="1.0">
+                <TextView android:textStyle="bold" android:textColor="#ffffffff" android:gravity="center_horizontal" android:id="@id/channel_bs" android:paddingTop="35.0px" android:layout_width="100.0px" android:layout_height="100.0px" android:text="BS" />
+            </RelativeLayout>
+            <RelativeLayout android:gravity="center" android:layout_width="100.0px" android:layout_height="100.0px" android:layout_weight="1.0">
+                <TextView android:textStyle="bold" android:textColor="#ffffffff" android:gravity="center_horizontal" android:id="@id/channel_cs" android:paddingTop="35.0px" android:layout_width="100.0px" android:layout_height="100.0px" android:text="CS" />
+            </RelativeLayout>
+        </LinearLayout>
+        <RelativeLayout android:id="@id/media_layout" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentLeft="true" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/main_top" android:background="@drawable/bar_bg" android:layout_width="fill_parent" android:layout_height="50.0px" android:layout_marginBottom="0.0px" android:layout_alignParentTop="true">
+        <HorizontalScrollView android:id="@id/smallButtonGallery_layout" android:layout_width="wrap_content" android:layout_height="60.0px" android:layout_toRightOf="@id/bar_left">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/smallButtonItem_layout" android:layout_width="wrap_content" android:layout_height="60.0px">
+                <ImageView android:id="@id/titleicon" android:layout_width="53.0px" android:layout_height="56.0px" android:layout_marginBottom="6.0px" android:src="@drawable/local_ic_bg" />
+                <TextView android:textSize="12.0sp" android:textColor="#ffffffff" android:id="@id/titletext" android:layout_width="200.0px" android:layout_height="wrap_content" android:layout_marginBottom="6.0px" android:text="@string/ids_content_local" android:singleLine="true" />
+                <ImageView android:id="@id/servericon" android:layout_width="53.0px" android:layout_height="56.0px" android:layout_marginBottom="6.0px" android:src="@drawable/server_ic_bg" />
+                <TextView android:textSize="12.0sp" android:textColor="#ffffffff" android:id="@id/servertext" android:layout_width="200.0px" android:layout_height="wrap_content" android:layout_marginBottom="6.0px" android:text="@string/ids_unknowname" android:singleLine="true" />
+                <ImageView android:id="@id/channelicon" android:layout_width="53.0px" android:layout_height="56.0px" android:layout_marginBottom="6.0px" android:src="@drawable/server_ic_bg" />
+                <TextView android:textSize="12.0sp" android:textColor="#ffffffff" android:id="@id/channeltext" android:layout_width="300.0px" android:layout_height="wrap_content" android:layout_marginBottom="6.0px" android:text="@string/ids_unknowname" android:singleLine="true" />
+            </LinearLayout>
+        </HorizontalScrollView>
+        <ImageView android:background="@drawable/serveritem_bg" android:layout_width="wrap_content" android:layout_height="60.0px" android:layout_weight="1.0" />
+        <ImageView android:gravity="center_vertical" android:id="@id/bar_right" android:background="@drawable/bar_bg" android:layout_width="100.0px" android:layout_height="50.0px" android:src="@drawable/btn_addserver" />
+    </LinearLayout>
+</RelativeLayout>

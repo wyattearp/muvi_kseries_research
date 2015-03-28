@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ids_setting_download_destination">
+        <item>내부 플래시 메모리</item>
+        <item>SD 카드</item>
+    </string-array>
+    <string-array name="channels">
+        <item>주</item>
+        <item>보조</item>
+        <item>스테레오</item>
+    </string-array>
+    <string-array name="tracks">
+        <item>트랙</item>
+    </string-array>
+    <string-array name="ids_easytransfer_range_values">
+        <item>3일 내</item>
+        <item>1주 내</item>
+        <item>2주 내</item>
+        <item>제한 없음</item>
+    </string-array>
+    <string-array name="transfer_dialog_execute_delete">
+        <item>간편 전송 실행</item>
+        <item>간편 전송 등록 삭제</item>
+    </string-array>
+    <string-array name="transfer_dialog_cancel">
+        <item>간편 전송 취소</item>
+    </string-array>
+    <string-array name="slideshow_effects">
+        <item>페이드 인&amp;amp;아웃;</item>
+        <item>슬라이드인(오른쪽에서 왼쪽)</item>
+        <item>슬라이드인(오른쪽에서 왼쪽)</item>
+    </string-array>
+    <string-array name="slideshow_intervals">
+        <item>짧게</item>
+        <item>표준</item>
+        <item>길게</item>
+    </string-array>
+    <string-array name="cmd_items_string">
+        <item>해상도</item>
+        <item>AE 미터</item>
+        <item>AWB 모드</item>
+        <item>EV 편향</item>
+        <item>선명도</item>
+        <item>대비</item>
+        <item>채도</item>
+        <item>마이크 볼륨</item>
+        <item>디지털 효과</item>
+        <item>깜박임</item>
+        <item>사진 품질</item>
+        <item>사진 스탬프</item>
+        <item>비디오 품질</item>
+        <item>비디오 스탬프</item>
+        <item>자동 전원 꺼짐</item>
+        <item>날짜 시간</item>
+        <item>카드 여유 공간</item>
+        <item>기본 설정 복원</item>
+    </string-array>
+    <string-array name="cmd_Resolution_string">
+        <item>1080p30</item>
+        <item>960p30</item>
+        <item>720p30</item>
+        <item>720p60</item>
+        <item>5M_3s</item>
+        <item>5M_5s</item>
+        <item>5M_15s</item>
+        <item>5M_30s</item>
+    </string-array>
+    <string-array name="cmd_AE_Meter_string">
+        <item>센터</item>
+        <item>평균</item>
+        <item>스팟</item>
+    </string-array>
+    <string-array name="cmd_AWB_Mode_string">
+        <item>자동</item>
+        <item>백열광</item>
+        <item>D4000</item>
+        <item>D5000</item>
+        <item>햇빛</item>
+        <item>구름</item>
+        <item>플래시</item>
+    </string-array>
+    <string-array name="cmd_EV_Bias_string">
+        <item>-2EV</item>
+        <item>-1EV</item>
+        <item>0EV</item>
+        <item>+1EV</item>
+        <item>+2EV</item>
+    </string-array>
+    <string-array name="cmd_Sharpness_string">
+        <item>소프트</item>
+        <item>표준</item>
+        <item>하드</item>
+    </string-array>
+    <string-array name="cmd_Contrast_string">
+        <item>소프트</item>
+        <item>표준</item>
+        <item>하드</item>
+    </string-array>
+    <string-array name="cmd_Digital_Effect_string">
+        <item>끔</item>
+        <item>아트</item>
+        <item>세피아</item>
+        <item>네가티브</item>
+        <item>흑백</item>
+        <item>생생함</item>
+    </string-array>
+    <string-array name="cmd_Flicker_string">
+        <item>자동</item>
+        <item>60Hz</item>
+        <item>50Hz</item>
+    </string-array>
+    <string-array name="cmd_Photo_Quality_string">
+        <item>초미세</item>
+        <item>미세</item>
+        <item>정상</item>
+        <item>자동</item>
+    </string-array>
+    <string-array name="cmd_Photo_Stamp_string">
+        <item>끔</item>
+        <item>날짜</item>
+        <item>시간</item>
+        <item>날짜 및 시간</item>
+    </string-array>
+    <string-array name="cmd_Video_Quality_string">
+        <item>초미세</item>
+        <item>미세</item>
+        <item>정상</item>
+    </string-array>
+    <string-array name="cmd_Video_Stamp_string">
+        <item>끔</item>
+        <item>날짜</item>
+        <item>시간</item>
+        <item>날짜 및 시간</item>
+    </string-array>
+    <string-array name="cmd_Video_Output_System_string">
+        <item>NTSC_30</item>
+        <item>PAL_25</item>
+    </string-array>
+    <string-array name="item_Set_Data_Time_string">
+        <item>데이터 설정</item>
+        <item>시간 설정</item>
+    </string-array>
+    <string-array name="item_crop_setting_size">
+        <item>1:1</item>
+        <item>2:3</item>
+        <item>3:2</item>
+        <item>4:3</item>
+        <item>3:4</item>
+        <item>16:9</item>
+        <item>9:16</item>
+        <item>자유</item>
+    </string-array>
+    <string-array name="item_setting_content_access">
+        <item>신속한 다운로드</item>
+        <item>원본 파일</item>
+    </string-array>
+</resources>

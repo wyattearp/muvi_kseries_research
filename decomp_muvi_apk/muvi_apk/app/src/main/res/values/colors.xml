@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="transparent">#00000000</color>
+    <color name="gray">#ff808080</color>
+    <color name="solid_red">#ffff0000</color>
+    <color name="solid_blue">#ff0000ff</color>
+    <color name="solid_green">#ff00ff00</color>
+    <color name="solid_yellow">#ffffff00</color>
+    <color name="white">#ffffffff</color>
+    <color name="lightgray">#c0c0c0ff</color>
+    <color name="black">#ff000000</color>
+    <color name="progress_start_color">#ff223657</color>
+    <color name="progress_center_color">#ff6d7fb1</color>
+    <color name="progress_end_color">#ff1447bc</color>
+    <color name="collage_background">#ffe7dfdc</color>
+    <color name="stream_recording_advice">#ff8c8c8c</color>
+    <item type="color" name="stream_connect_state_connecting">@color/white</item>
+    <color name="stream_connect_state_failed">#ffffae00</color>
+    <color name="setting_cmd_bg">#ff2b2b2b</color>
+    <color name="crop_mode_selected">#ffff9c00</color>
+</resources>

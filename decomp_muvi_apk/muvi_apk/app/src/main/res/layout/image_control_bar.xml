@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/control_area" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="top" android:orientation="horizontal" android:id="@id/image_player_panel" android:background="@drawable/media_player_bar" android:layout_width="fill_parent" android:layout_height="85.0px" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/image_previous" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0px" android:src="@drawable/previous_btn" android:scaleType="fitCenter" android:layout_weight="1.0" />
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/image_play" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0px" android:src="@drawable/btn_play" android:scaleType="fitCenter" android:layout_weight="1.0" />
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/image_next" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0px" android:src="@drawable/next_btn" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_above="@id/image_player_panel" android:layout_alignParentRight="true">
+        <Button android:id="@id/image_zoomin" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <Button android:id="@id/image_zoomout" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</RelativeLayout>

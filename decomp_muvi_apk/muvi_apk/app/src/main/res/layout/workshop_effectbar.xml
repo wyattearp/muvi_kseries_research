@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.arcsoft.workshop.ui.UIEffectBar android:id="@id/workshop_effectbar" android:visibility="gone" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="@dimen/filterbar_thumnail_panelheight"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:paddingTop="@dimen/filterbar_thumnail_panelpaddingtop" android:paddingRight="@dimen/filterbar_thumnail_firstmarginleft" android:layout_width="wrap_content" android:layout_height="@dimen/filterbar_thumnail_panelheight">
+        <LinearLayout android:orientation="vertical" android:id="@id/normal_panel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/filterbar_thumnail_firstmarginleft">
+            <ImageView android:id="@id/effect_normal" style="@style/filterbar_thumnail_style" />
+            <TextView android:text="@string/normal" style="@style/filterbar_thumnailtxt_style" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/lomodarkcorner_panel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/filterbar_thumnailtxt_othermarginleft">
+            <ImageView android:id="@id/effect_lomodarkcorner" style="@style/filterbar_thumnail_style" />
+            <TextView android:text="@string/lomodarkcorner" style="@style/filterbar_thumnailtxt_style" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/lomocoldcolor_panel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/filterbar_thumnailtxt_othermarginleft">
+            <ImageView android:id="@id/effect_lomocoldcolor" style="@style/filterbar_thumnail_style" />
+            <TextView android:text="@string/lomocoldcolor" style="@style/filterbar_thumnailtxt_style" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/lomowarmcolor_panel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/filterbar_thumnailtxt_othermarginleft">
+            <ImageView android:id="@id/effect_lomowarmcolor" style="@style/filterbar_thumnail_style" />
+            <TextView android:text="@string/lomowarmcolor" style="@style/filterbar_thumnailtxt_style" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/lomomagic_panel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/filterbar_thumnailtxt_othermarginleft">
+            <ImageView android:id="@id/effect_lomomagic" style="@style/filterbar_thumnail_style" />
+            <TextView android:text="@string/lomomagic" style="@style/filterbar_thumnailtxt_style" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/lomosoft_panel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/filterbar_thumnailtxt_othermarginleft">
+            <ImageView android:id="@id/effect_lomosoft" style="@style/filterbar_thumnail_style" />
+            <TextView android:text="@string/lomosoft" style="@style/filterbar_thumnailtxt_style" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/polaroid_impressive_panel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/filterbar_thumnailtxt_othermarginleft">
+            <ImageView android:id="@id/effect_polaroid_impressive" style="@style/filterbar_thumnail_style" />
+            <TextView android:text="@string/polaroid_impressive" style="@style/filterbar_thumnailtxt_style" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/polaroid_panel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/filterbar_thumnailtxt_othermarginleft">
+            <ImageView android:id="@id/effect_polaroid" style="@style/filterbar_thumnail_style" />
+            <TextView android:text="@string/polaroid" style="@style/filterbar_thumnailtxt_style" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/polaroid_autumn_panel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/filterbar_thumnailtxt_othermarginleft">
+            <ImageView android:id="@id/effect_polaroid_autumn" style="@style/filterbar_thumnail_style" />
+            <TextView android:text="@string/polaroid_autumn" style="@style/filterbar_thumnailtxt_style" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/polaroid_romantic_panel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/filterbar_thumnailtxt_othermarginleft">
+            <ImageView android:id="@id/effect_polaroid_romantic" style="@style/filterbar_thumnail_style" />
+            <TextView android:text="@string/polaroid_romantic" style="@style/filterbar_thumnailtxt_style" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/washedaway_panel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/filterbar_thumnailtxt_othermarginleft">
+            <ImageView android:id="@id/effect_washedaway" style="@style/filterbar_thumnail_style" />
+            <TextView android:text="@string/washedaway" style="@style/filterbar_thumnailtxt_style" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/gothic_panel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/filterbar_thumnailtxt_othermarginleft">
+            <ImageView android:id="@id/effect_gothic" style="@style/filterbar_thumnail_style" />
+            <TextView android:text="@string/gothic" style="@style/filterbar_thumnailtxt_style" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/deepqutie_panel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/filterbar_thumnailtxt_othermarginleft">
+            <ImageView android:id="@id/effect_deepqutie" style="@style/filterbar_thumnail_style" />
+            <TextView android:text="@string/deepquite" style="@style/filterbar_thumnailtxt_style" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/colorfilter_mexico_panel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/filterbar_thumnailtxt_othermarginleft">
+            <ImageView android:id="@id/effect_colorfilter_mexico" style="@style/filterbar_thumnail_style" />
+            <TextView android:text="@string/colorfilter_mexico" style="@style/filterbar_thumnailtxt_style" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/colorfilter_greenfield_panel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/filterbar_thumnailtxt_othermarginleft">
+            <ImageView android:id="@id/effect_colorfilter_greenfield" style="@style/filterbar_thumnail_style" />
+            <TextView android:text="@string/colorfilter_greenfield" style="@style/filterbar_thumnailtxt_style" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/colorfilter_bluedepression_panel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/filterbar_thumnailtxt_othermarginleft">
+            <ImageView android:id="@id/effect_colorfilter_bluedepression" style="@style/filterbar_thumnail_style" />
+            <TextView android:text="@string/colorfilter_bluedepression" style="@style/filterbar_thumnailtxt_style" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/colorfilter_purplelove_panel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/filterbar_thumnailtxt_othermarginleft">
+            <ImageView android:id="@id/effect_colorfilter_purplelove" style="@style/filterbar_thumnail_style" />
+            <TextView android:text="@string/colorfilter_purplelove" style="@style/filterbar_thumnailtxt_style" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/colorfilter_silentfilm_panel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/filterbar_thumnailtxt_othermarginleft">
+            <ImageView android:id="@id/effect_colorfilter_silentfilm" style="@style/filterbar_thumnail_style" />
+            <TextView android:text="@string/colorfilter_silentfilm" style="@style/filterbar_thumnailtxt_style" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/sweetvintage_panel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/filterbar_thumnailtxt_othermarginleft">
+            <ImageView android:id="@id/effect_sweetvintage" style="@style/filterbar_thumnail_style" />
+            <TextView android:text="@string/sweetvintage" style="@style/filterbar_thumnailtxt_style" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/blackwhite_panel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/filterbar_thumnailtxt_othermarginleft">
+            <ImageView android:id="@id/effect_blackwhite" style="@style/filterbar_thumnail_style" />
+            <TextView android:text="@string/blackwhite" style="@style/filterbar_thumnailtxt_style" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/cartoon_panel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/filterbar_thumnailtxt_othermarginleft">
+            <ImageView android:id="@id/effect_cartoon" style="@style/filterbar_thumnail_style" />
+            <TextView android:text="@string/cartoon" style="@style/filterbar_thumnailtxt_style" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/softskin_panel" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/filterbar_thumnailtxt_othermarginleft">
+            <ImageView android:id="@id/effect_softskin" style="@style/filterbar_thumnail_style" />
+            <TextView android:text="@string/softskin" style="@style/filterbar_thumnailtxt_style" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/sketch_panel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/filterbar_thumnailtxt_othermarginleft">
+            <ImageView android:id="@id/effect_sketch" style="@style/filterbar_thumnail_style" />
+            <TextView android:text="@string/sketch" style="@style/filterbar_thumnailtxt_style" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/gentlecool_panel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/filterbar_thumnailtxt_othermarginleft">
+            <ImageView android:id="@id/effect_gentlecool" style="@style/filterbar_thumnail_style" />
+            <TextView android:text="@string/gentlecool" style="@style/filterbar_thumnailtxt_style" />
+        </LinearLayout>
+    </LinearLayout>
+</com.arcsoft.workshop.ui.UIEffectBar>

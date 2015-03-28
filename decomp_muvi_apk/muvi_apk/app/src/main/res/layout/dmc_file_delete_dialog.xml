@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/selectbox_shandow" android:background="@drawable/selectbox_top_shadow" android:layout_width="fill_parent" android:layout_height="2.0px" />
+    <RelativeLayout android:id="@id/progress_layout" android:background="@drawable/selectbox_bg_top" android:layout_width="fill_parent" android:layout_height="100.0dip" android:layout_below="@id/selectbox_shandow">
+        <ProgressBar android:id="@id/loadprogress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/saving_progress_marginleft" android:indeterminateDrawable="@drawable/workshop_saving_progress" android:layout_centerVertical="true" />
+        <TextView android:textSize="@dimen/saving_textsize" android:id="@id/loadtxt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/saving_text_marginleft" android:layout_marginRight="@dimen/saving_text_marginleft" android:text="@string/str_delete_wait" android:layout_toRightOf="@id/loadprogress" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:background="@drawable/selectbox_bg_bottom" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="64.0dip" android:layout_below="@id/progress_layout">
+        <Button android:textSize="@dimen/Setting_Item_Text_Size" android:textColor="#ff000000" android:id="@id/cancle_delete_button" android:background="@drawable/selectbox_bottom_btn" android:layout_width="fill_parent" android:layout_height="54.0dip" android:text="@string/ids_common_cancel" />
+    </LinearLayout>
+</RelativeLayout>

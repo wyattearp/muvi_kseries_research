@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:id="@id/largeview_control_bar" android:background="@drawable/bottom_bar_bg_repeat" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/btn_share" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/media_plus_btn_share" android:layout_weight="1.0" />
+    <ImageView android:id="@id/playto_btn" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btn_playto" android:layout_weight="1.0" />
+    <ImageView android:id="@id/btn_photo_edit" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/edit_btn" android:layout_weight="1.0" />
+    <ImageView android:id="@id/btn_photo_download" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/media_plus_btn_download" android:layout_weight="1.0" />
+    <ImageView android:id="@id/btn_delete" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/media_plus_btn_delete" android:layout_weight="1.0" />
+</LinearLayout>

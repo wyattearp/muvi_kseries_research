@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.arcsoft.workshop.ui.UIActionBar android:gravity="center_vertical" android:id="@id/workshop_actionbar" android:background="@drawable/top_bar_bg_repeat" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:id="@id/workshop_actionbar_cancel" android:background="@drawable/back_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/actionbar_cancelbtn_marginleft" android:layout_centerVertical="true" />
+    <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <ImageButton android:id="@id/workshop_actionbar_autofix" android:background="@drawable/workshop_autofix_bkg" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <ImageButton android:id="@id/workshop_actionbar_miniature" android:background="@drawable/workshop_miniature_src" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <Button android:id="@id/workshop_share" android:background="@drawable/common_more_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/actionbar_sharebtn_marginright" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</com.arcsoft.workshop.ui.UIActionBar>

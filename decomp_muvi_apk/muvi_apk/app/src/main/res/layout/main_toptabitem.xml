@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:id="@id/rootfolder" android:layout_width="wrap_content" android:layout_height="76.0px"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="12.0sp" android:textColor="@color/gray" android:gravity="center" android:id="@id/videotabtext" android:background="@drawable/normal_tap" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="1.0px" android:layout_marginRight="1.0px" android:text="@string/ids_unknowname" android:singleLine="true" />
+</LinearLayout>

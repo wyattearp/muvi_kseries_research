@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/grid_mask" android:layout_width="@dimen/MediaPlus_GridItem_Thumb_Mask_Width" android:layout_height="@dimen/MediaPlus_GridItem_Thumb_Mask_Width"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@drawable/thumbnail_mask" android:layout_width="@dimen/MediaPlus_GridItem_Thumb_Mask_Width" android:layout_height="@dimen/MediaPlus_GridItem_Thumb_Mask_Width" android:layout_centerInParent="true">
+        <RelativeLayout android:id="@id/grid_normal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.arcsoft.mediaplus.widget.AutoRecycleImageView android:id="@id/grid_thumb" android:layout_width="@dimen/MediaPlus_GridItem_Thumb_Width" android:layout_height="@dimen/MediaPlus_GridItem_Thumb_Width" android:layout_margin="@dimen/MediaPlus_GridItem_Info_Bg_MarginBottom" android:src="@drawable/thumbnail_default_photo" android:layout_centerInParent="true" />
+            <RelativeLayout android:id="@id/grid_video_info_layout" android:background="@drawable/grid_video_info_bg" android:paddingBottom="@dimen/MediaPlus_GridItem_Info_Bg_MarginBottom" android:layout_width="@dimen/MediaPlus_GridItem_Thumb_Width" android:layout_height="@dimen/MediaPlus_GridItem_Info_Bg_Height" android:layout_alignParentBottom="true">
+                <TextView android:textSize="@dimen/MediaPlus_GridItem_Info_Duration_Text_Size" android:gravity="right|center" android:id="@id/grid_video_duration" android:paddingRight="2.0dip" android:layout_width="@dimen/MediaPlus_GridItem_Info_Duration_Witdh" android:layout_height="fill_parent" android:text="01:20:10" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <ImageView android:id="@id/grid_select_icon" android:paddingTop="1.0dip" android:paddingRight="1.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/select_icon_push" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/grid_download" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:id="@id/grid_download_bk" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/thumbnail_default_video" android:layout_centerInParent="true" />
+            <ProgressBar android:id="@id/grid_download_progress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" android:maxWidth="@dimen/download_progress_width" android:maxHeight="@dimen/download_progress_height" android:secondaryProgress="0" android:progressDrawable="@drawable/item_download_progress" android:minWidth="@dimen/download_progress_width" android:minHeight="@dimen/download_progress_height" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" style="?android:attr/progressBarStyleHorizontal" />
+        </RelativeLayout>
+        <ImageView android:id="@id/remote_download_icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+</RelativeLayout>

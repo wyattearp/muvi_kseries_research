@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ids_setting_download_destination">
+        <item>内部フラッシュメモリ</item>
+        <item>SD カード</item>
+    </string-array>
+    <string-array name="channels">
+        <item>プライマリー</item>
+        <item>セカンダリー</item>
+        <item>ステレオ</item>
+    </string-array>
+    <string-array name="tracks">
+        <item>トラック</item>
+    </string-array>
+    <string-array name="ids_easytransfer_range_values">
+        <item>3日以内</item>
+        <item>1週間以内</item>
+        <item>2週間以内</item>
+        <item>期間制限なし</item>
+    </string-array>
+    <string-array name="transfer_dialog_execute_delete">
+        <item>かんたん転送を実行する</item>
+        <item>かんたん転送設定を消去する</item>
+    </string-array>
+    <string-array name="transfer_dialog_cancel">
+        <item>かんたん転送をキャンセル</item>
+    </string-array>
+    <string-array name="slideshow_effects">
+        <item>フェードイン/アウト</item>
+        <item>スライド イン（右から左）)</item>
+        <item>スライド イン（上から下）</item>
+    </string-array>
+    <string-array name="slideshow_intervals">
+        <item>短</item>
+        <item>標準</item>
+        <item>長</item>
+    </string-array>
+    <string-array name="cmd_items_string">
+        <item>解像度</item>
+        <item>AE メーター</item>
+        <item>AWB モード</item>
+        <item>EV バイアス</item>
+        <item>シャープネス</item>
+        <item>コントラスト</item>
+        <item>彩度</item>
+        <item>マイクロフォンの音量</item>
+        <item>デジタル効果</item>
+        <item>フリッカ</item>
+        <item>写真品質</item>
+        <item>フォト スタンプ</item>
+        <item>ビデオ画質</item>
+        <item>ビデオ スタンプ</item>
+        <item>自動電源オフ</item>
+        <item>日時</item>
+        <item>カードの空き領域</item>
+        <item>デフォルト設定を復元</item>
+    </string-array>
+    <string-array name="cmd_Resolution_string">
+        <item>1080p30</item>
+        <item>960p30</item>
+        <item>720p30</item>
+        <item>720p60</item>
+        <item>5M_3s</item>
+        <item>5M_5s</item>
+        <item>5M_15s</item>
+        <item>5M_30s</item>
+    </string-array>
+    <string-array name="cmd_AE_Meter_string">
+        <item>中央</item>
+        <item>平均</item>
+        <item>点</item>
+    </string-array>
+    <string-array name="cmd_AWB_Mode_string">
+        <item>自動</item>
+        <item>白熱光</item>
+        <item>D4000</item>
+        <item>D5000</item>
+        <item>晴天</item>
+        <item>曇</item>
+        <item>フラッシュ</item>
+    </string-array>
+    <string-array name="cmd_EV_Bias_string">
+        <item>-2EV</item>
+        <item>-1EV</item>
+        <item>0EV</item>
+        <item>+1EV</item>
+        <item>+2EV</item>
+    </string-array>
+    <string-array name="cmd_Sharpness_string">
+        <item>ソフト</item>
+        <item>標準</item>
+        <item>ハード</item>
+    </string-array>
+    <string-array name="cmd_Contrast_string">
+        <item>ソフト</item>
+        <item>標準</item>
+        <item>ハード</item>
+    </string-array>
+    <string-array name="cmd_Digital_Effect_string">
+        <item>オフ</item>
+        <item>アート</item>
+        <item>セピア</item>
+        <item>ネガ</item>
+        <item>モノクロ</item>
+        <item>鮮明</item>
+    </string-array>
+    <string-array name="cmd_Flicker_string">
+        <item>自動</item>
+        <item>60Hz</item>
+        <item>50Hz</item>
+    </string-array>
+    <string-array name="cmd_Photo_Quality_string">
+        <item>スーパーファイン</item>
+        <item>ファイン</item>
+        <item>標準</item>
+        <item>自動</item>
+    </string-array>
+    <string-array name="cmd_Photo_Stamp_string">
+        <item>オフ</item>
+        <item>日付</item>
+        <item>時間</item>
+        <item>日時</item>
+    </string-array>
+    <string-array name="cmd_Video_Quality_string">
+        <item>スーパーファイン</item>
+        <item>ファイン</item>
+        <item>標準</item>
+    </string-array>
+    <string-array name="cmd_Video_Stamp_string">
+        <item>オフ</item>
+        <item>日付</item>
+        <item>時間</item>
+        <item>日時</item>
+    </string-array>
+    <string-array name="cmd_Video_Output_System_string">
+        <item>NTSC_30</item>
+        <item>PAL_25</item>
+    </string-array>
+    <string-array name="item_Set_Data_Time_string">
+        <item>データの設定</item>
+        <item>時間の設定</item>
+    </string-array>
+    <string-array name="item_crop_setting_size">
+        <item>1:1</item>
+        <item>2:3</item>
+        <item>3:2</item>
+        <item>4:3</item>
+        <item>3:4</item>
+        <item>16:9</item>
+        <item>9:16</item>
+        <item>フリー</item>
+    </string-array>
+    <string-array name="item_setting_content_access">
+        <item>クイックダウンロード</item>
+        <item>元のファイル</item>
+    </string-array>
+</resources>

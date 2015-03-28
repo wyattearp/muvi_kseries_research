@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="400" android:versionName="1.40.5.0" package="com.AEEMagiCam.MediaPlus">
+    <application android:debuggable="false" android:icon="@drawable/app_icon" android:label="@string/app_name_muvi" android:name="com.arcsoft.mediaplus.MediaPlusApplication">
+        <activity android:configChanges="keyboardHidden" android:icon="@drawable/app_icon" android:label="@string/app_name_muvi" android:name="com.arcsoft.mediaplus.MediaPlusLaucher" android:screenOrientation="portrait" android:theme="@*android:style/Theme.NoTitleBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.arcsoft.mediaplus.MediaPlusActivity" android:theme="@*android:style/Theme.NoTitleBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden" android:name="com.arcsoft.videostream.aee.AEEVideoStreamActivity" android:screenOrientation="portrait" android:theme="@*android:style/Theme.NoTitleBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden" android:name="com.arcsoft.videostream.aee.AEEConnectActivity" android:screenOrientation="portrait" android:theme="@*android:style/Theme.NoTitleBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.arcsoft.videostream.aee.AEEVideoStreamFullScreenActivity" android:theme="@*android:style/Theme.NoTitleBar"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.arcsoft.mediaplus.setting.SettingsActivity" android:theme="@*android:style/Theme.NoTitleBar"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.arcsoft.mediaplus.setting.About" android:theme="@*android:style/Theme.NoTitleBar"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.arcsoft.mediaplus.setting.SettingListActivity" android:theme="@*android:style/Theme.NoTitleBar"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.arcsoft.mediaplus.setting.SettingCMDListActivity" android:theme="@*android:style/Theme.NoTitleBar"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.arcsoft.mediaplus.setting.AEESettingCMDListActivity" android:screenOrientation="sensor" android:theme="@*android:style/Theme.NoTitleBar"/>
+        <service android:name="com.arcsoft.mediaplus.service.util.DLNAService">
+            <intent-filter>
+                <action android:name="MUVI.MediaPlus.DLNA.SERVICE"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </service>
+        <activity android:label="@string/app_name" android:name="com.arcsoft.mediaplus.dmc.DmcPlayback" android:screenOrientation="portrait" android:theme="@*android:style/Theme.NoTitleBar"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:launchMode="singleTop" android:name="com.arcsoft.mediaplus.playview.ImagePlayActivity" android:theme="@*android:style/Theme.NoTitleBar">
+            <intent-filter>
+                <action android:name="MUVI.mediaplus.intent.action.PUSHTO"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="image/*"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="MUVI.mediaplus.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="image/*"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.arcsoft.mediaplus.collage.Collage" android:screenOrientation="portrait" android:theme="@*android:style/Theme.NoTitleBar">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.arcsoft.workshop.WorkShop" android:screenOrientation="portrait" android:theme="@*android:style/Theme.NoTitleBar">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation" android:launchMode="singleInstance" android:name="com.arcsoft.mediaplus.NoSdCardActivity" android:theme="@*android:style/Theme.NoTitleBar">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.arcsoft.videotrim.videoTrimActivity" android:screenOrientation="portrait" android:theme="@*android:style/Theme.NoTitleBar"/>
+    </application>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="archos.permission.FULLSCREEN"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <supports-screens android:anyDensity="true" android:largeScreens="true" android:normalScreens="true" android:resizeable="true" android:smallScreens="true"/>
+</manifest>

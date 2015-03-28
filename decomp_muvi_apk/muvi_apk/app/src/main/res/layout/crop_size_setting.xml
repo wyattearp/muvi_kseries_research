@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/crop_bg" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/crop_text_height">
+        <TextView android:textSize="@dimen/crop_text_size" android:gravity="center" android:id="@id/mode_1" android:layout_width="@dimen/crop_text_width" android:layout_height="fill_parent" />
+        <TextView android:textSize="@dimen/crop_text_size" android:gravity="center" android:id="@id/mode_2" android:layout_width="@dimen/crop_text_width" android:layout_height="fill_parent" />
+        <TextView android:textSize="@dimen/crop_text_size" android:gravity="center" android:id="@id/mode_3" android:layout_width="@dimen/crop_text_width" android:layout_height="fill_parent" />
+        <TextView android:textSize="@dimen/crop_text_size" android:gravity="center" android:id="@id/mode_4" android:layout_width="@dimen/crop_text_width" android:layout_height="fill_parent" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/crop_text_height">
+        <TextView android:textSize="@dimen/crop_text_size" android:gravity="center" android:id="@id/mode_5" android:layout_width="@dimen/crop_text_width" android:layout_height="fill_parent" />
+        <TextView android:textSize="@dimen/crop_text_size" android:gravity="center" android:id="@id/mode_6" android:layout_width="@dimen/crop_text_width" android:layout_height="fill_parent" />
+        <TextView android:textSize="@dimen/crop_text_size" android:gravity="center" android:id="@id/mode_7" android:layout_width="@dimen/crop_text_width" android:layout_height="fill_parent" />
+        <TextView android:textSize="@dimen/crop_text_size" android:gravity="center" android:id="@id/mode_8" android:layout_width="@dimen/crop_text_width" android:layout_height="fill_parent" />
+    </LinearLayout>
+</LinearLayout>

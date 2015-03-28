@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="str_plural_picture_files">
+        <item quantity="other">%d 사진 파일</item>
+        <item quantity="one">1 사진 파일</item>
+    </plurals>
+    <plurals name="str_collage_failed_decode_info">
+        <item quantity="other">%d 파일을 디코딩할 수 없습니다! 파일은 다음과 같습니다:</item>
+        <item quantity="one">1 파일을 디코딩할 수 없습니다. 파일은</item>
+    </plurals>
+</resources>

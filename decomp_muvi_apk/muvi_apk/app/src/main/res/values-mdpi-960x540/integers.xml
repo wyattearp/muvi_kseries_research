@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="Info_Max_Lines">4</integer>
+    <integer name="Thumb_Video_Duration_Font_Size">28</integer>
+</resources>

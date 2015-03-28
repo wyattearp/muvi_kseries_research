@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/render_list_item_height" android:minHeight="@dimen/render_list_item_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/dr_icon" android:layout_width="@dimen/render_list_item_cover_height" android:layout_height="@dimen/render_list_item_cover_width" android:layout_marginLeft="@dimen/render_list_item_margin_left" android:scaleType="centerCrop" />
+    <TextView android:textSize="@dimen/Device_Name_Text_Size" android:textColor="@color/white" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/dr_title" android:paddingRight="@dimen/Device_Check_Icon_PaddingRight" android:fadingEdge="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:singleLine="true" />
+</LinearLayout>

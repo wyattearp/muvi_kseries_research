@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ids_setting_download_destination">
+        <item>内置闪存</item>
+        <item>SD卡</item>
+    </string-array>
+    <string-array name="channels">
+        <item>主要的</item>
+        <item>次要的</item>
+        <item>立体声</item>
+    </string-array>
+    <string-array name="tracks">
+        <item>路径</item>
+    </string-array>
+    <string-array name="ids_easytransfer_range_values">
+        <item>3天之内</item>
+        <item>1周之内</item>
+        <item>2周之内</item>
+        <item>无限制</item>
+    </string-array>
+    <string-array name="transfer_dialog_execute_delete">
+        <item>进行简便传送</item>
+        <item>删除简便传送注册</item>
+    </string-array>
+    <string-array name="transfer_dialog_cancel">
+        <item>取消简便传送</item>
+    </string-array>
+    <string-array name="slideshow_effects">
+        <item>淡入与淡出</item>
+        <item>滑入（右到左）</item>
+        <item>滑入（上到下）</item>
+    </string-array>
+    <string-array name="slideshow_intervals">
+        <item>短</item>
+        <item>标准</item>
+        <item>长</item>
+    </string-array>
+    <string-array name="cmd_items_string">
+        <item>分辨率</item>
+        <item>AE测光</item>
+        <item>AWB模式</item>
+        <item>EV补偿</item>
+        <item>清晰度</item>
+        <item>对比度</item>
+        <item>饱和度</item>
+        <item>麦克风音量</item>
+        <item>数码效果</item>
+        <item>闪烁</item>
+        <item>照片质量</item>
+        <item>照片邮票</item>
+        <item>视频质量</item>
+        <item>视频邮票</item>
+        <item>自动关机</item>
+        <item>日期时间</item>
+        <item>储存卡剩余空间</item>
+        <item>恢复默认设置</item>
+    </string-array>
+    <string-array name="cmd_Resolution_string">
+        <item>1080p30</item>
+        <item>960p30</item>
+        <item>720p30</item>
+        <item>720p60</item>
+        <item>5M_3s</item>
+        <item>5M_5s</item>
+        <item>5M_15s</item>
+        <item>5M_30s</item>
+    </string-array>
+    <string-array name="cmd_AE_Meter_string">
+        <item>中心</item>
+        <item>平均测光</item>
+        <item>点测光</item>
+    </string-array>
+    <string-array name="cmd_AWB_Mode_string">
+        <item>自动</item>
+        <item>白炽灯</item>
+        <item>D4000</item>
+        <item>D5000</item>
+        <item>阳光</item>
+        <item>阴天</item>
+        <item>闪光灯</item>
+    </string-array>
+    <string-array name="cmd_EV_Bias_string">
+        <item>-2EV</item>
+        <item>-1EV</item>
+        <item>0EV</item>
+        <item>+1EV</item>
+        <item>+2EV</item>
+    </string-array>
+    <string-array name="cmd_Sharpness_string">
+        <item>柔和</item>
+        <item>标准</item>
+        <item>清晰</item>
+    </string-array>
+    <string-array name="cmd_Contrast_string">
+        <item>柔和</item>
+        <item>标准</item>
+        <item>清晰</item>
+    </string-array>
+    <string-array name="cmd_Digital_Effect_string">
+        <item>关</item>
+        <item>艺术</item>
+        <item>老照片</item>
+        <item>底片</item>
+        <item>黑白</item>
+        <item>生动</item>
+    </string-array>
+    <string-array name="cmd_Flicker_string">
+        <item>自动</item>
+        <item>60Hz</item>
+        <item>50Hz</item>
+    </string-array>
+    <string-array name="cmd_Photo_Quality_string">
+        <item>优质</item>
+        <item>好</item>
+        <item>正常</item>
+        <item>自动</item>
+    </string-array>
+    <string-array name="cmd_Photo_Stamp_string">
+        <item>关</item>
+        <item>日期</item>
+        <item>时间</item>
+        <item>日期和时间</item>
+    </string-array>
+    <string-array name="cmd_Video_Quality_string">
+        <item>优质</item>
+        <item>好</item>
+        <item>正常</item>
+    </string-array>
+    <string-array name="cmd_Video_Stamp_string">
+        <item>关</item>
+        <item>日期</item>
+        <item>时间</item>
+        <item>日期和时间</item>
+    </string-array>
+    <string-array name="cmd_Video_Output_System_string">
+        <item>NTSC_30</item>
+        <item>PAL_25</item>
+    </string-array>
+    <string-array name="item_Set_Data_Time_string">
+        <item>设置日期</item>
+        <item>设置时间</item>
+    </string-array>
+    <string-array name="item_crop_setting_size">
+        <item>1:1</item>
+        <item>2:3</item>
+        <item>3:2</item>
+        <item>4:3</item>
+        <item>3:4</item>
+        <item>16:9</item>
+        <item>9:16</item>
+        <item>自由</item>
+    </string-array>
+    <string-array name="item_setting_content_access">
+        <item>快速下载</item>
+        <item>原始文件</item>
+    </string-array>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/playback_list_item_height" android:maxHeight="@dimen/playback_list_item_height" android:minHeight="@dimen/playback_list_item_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/dmc_playlist_item_thumb" android:layout_width="@dimen/playback_list_cover_width" android:layout_height="@dimen/playback_list_cover_height" android:layout_marginLeft="@dimen/playback_list_cover_margin_left" android:scaleType="centerCrop" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/playback_list_content_margin_left" android:layout_toRightOf="@id/dmc_playlist_item_thumb" android:layout_centerVertical="true">
+        <TextView android:textSize="@dimen/playback_list_content_size" android:gravity="bottom" android:id="@id/dmc_playlist_item_title" android:layout_width="wrap_content" android:layout_height="@dimen/playback_list_half_item_height" android:singleLine="true" />
+        <TextView android:textSize="@dimen/playback_list_content_size" android:gravity="top" android:id="@id/dmc_playlist_item_date" android:layout_width="wrap_content" android:layout_height="@dimen/playback_list_half_item_height" android:singleLine="true" android:layout_below="@id/dmc_playlist_item_title" />
+    </RelativeLayout>
+</RelativeLayout>

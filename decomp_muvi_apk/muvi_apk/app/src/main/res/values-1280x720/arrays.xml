@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="crop_popwindow_info">
+        <item>570</item>
+        <item>198</item>
+    </integer-array>
+</resources>

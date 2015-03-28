@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.arcsoft.workshop.ui.UICropStyleBar android:gravity="center_vertical" android:id="@id/workshop_cropstylebar" android:background="@drawable/bottom_bar_bg_repeat" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <CheckBox android:textColor="@color/white" android:gravity="center" android:id="@id/set_btn" android:background="@drawable/btn_crop_set" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:button="@null" android:layout_centerInParent="true" />
+        <Button android:textColor="@color/white" android:id="@id/retset_btn" android:background="@drawable/btn_crop_reset" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/crop_btn_margin_left" android:text="@string/str_crop_reset" android:layout_toRightOf="@id/set_btn" />
+    </RelativeLayout>
+</com.arcsoft.workshop.ui.UICropStyleBar>

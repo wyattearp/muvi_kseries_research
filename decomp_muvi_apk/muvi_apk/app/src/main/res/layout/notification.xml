@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:padding="3.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/staticon" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/stat_notify_downloading" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toRightOf="@id/staticon">
+        <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/black" android:ellipsize="end" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="hello" android:singleLine="true" android:layout_alignParentLeft="true" android:marqueeRepeatLimit="marquee_forever" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="11.0sp" android:textColor="@color/gray" android:id="@id/amount" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" android:text="1344/33333" android:layout_alignParentLeft="true" />
+            <TextView android:textSize="11.0sp" android:textColor="@color/gray" android:id="@id/percent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="55.0dip" android:text="50%" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ProgressBar android:id="@id/progress" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxHeight="8.0dip" android:max="100" android:progress="50" android:minHeight="7.0dip" android:layout_weight="1.0" style="?android:attr/progressBarStyleHorizontal" />
+            <TextView android:textSize="11.0sp" android:textColor="@color/black" android:id="@id/time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginRight="5.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

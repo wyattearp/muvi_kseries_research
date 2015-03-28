@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ids_setting_download_destination">
+        <item>Interner Flash-Speicher</item>
+        <item>SD-Karte</item>
+    </string-array>
+    <string-array name="channels">
+        <item>Primär</item>
+        <item>Sekundär</item>
+        <item>Stereo</item>
+    </string-array>
+    <string-array name="tracks">
+        <item>Spur</item>
+    </string-array>
+    <string-array name="ids_easytransfer_range_values">
+        <item>Innerhalb von 3 Tagen</item>
+        <item>Innerhalb 1 Woche</item>
+        <item>Innerhalb 2 Wochen</item>
+        <item>Keine Beschränkung</item>
+    </string-array>
+    <string-array name="transfer_dialog_execute_delete">
+        <item>Einfache Übertragung ausführen</item>
+        <item>Einfache Übertragung Registrierung löschen</item>
+    </string-array>
+    <string-array name="transfer_dialog_cancel">
+        <item>Einfache Übertragung abbrechen</item>
+    </string-array>
+    <string-array name="slideshow_effects">
+        <item>Ein- und Ausblenden</item>
+        <item>Hineinschieben (von rechts nach links)</item>
+        <item>Hineinschieben (von oben nach unten)</item>
+    </string-array>
+    <string-array name="slideshow_intervals">
+        <item>Kurz</item>
+        <item>Standard</item>
+        <item>Lang</item>
+    </string-array>
+    <string-array name="cmd_items_string">
+        <item>Auflösung</item>
+        <item>Autom. Belichtung</item>
+        <item>Autom. Weißabgleich-Modus</item>
+        <item>Belichtungskorrektur</item>
+        <item>Schärfe</item>
+        <item>Kontrast</item>
+        <item>Sättigung</item>
+        <item>Mikrofonlautstärke</item>
+        <item>Digitaler Effekt</item>
+        <item>Flicker</item>
+        <item>Fotoqualität</item>
+        <item>Fotostempel</item>
+        <item>Videoqualität</item>
+        <item>Videostempel</item>
+        <item>Autom. Aus</item>
+        <item>Datum Uhrzeit</item>
+        <item>Freier Kartenspeicher</item>
+        <item>Standardeinstellung wiederherstellen</item>
+    </string-array>
+    <string-array name="cmd_Resolution_string">
+        <item>1080p30</item>
+        <item>960p30</item>
+        <item>720p30</item>
+        <item>720p60</item>
+        <item>5M_3s</item>
+        <item>5M_5s</item>
+        <item>5M_15s</item>
+        <item>5M_30s</item>
+    </string-array>
+    <string-array name="cmd_AE_Meter_string">
+        <item>Zentriert</item>
+        <item>Integralmessung</item>
+        <item>Einpunktmessung</item>
+    </string-array>
+    <string-array name="cmd_AWB_Mode_string">
+        <item>Auto</item>
+        <item>Glühend</item>
+        <item>D4000</item>
+        <item>D5000</item>
+        <item>Sonnig</item>
+        <item>Bewölkt</item>
+        <item>Blitz</item>
+    </string-array>
+    <string-array name="cmd_EV_Bias_string">
+        <item>-2EV</item>
+        <item>-1EV</item>
+        <item>0EV</item>
+        <item>+1EV</item>
+        <item>+2EV</item>
+    </string-array>
+    <string-array name="cmd_Sharpness_string">
+        <item>Vignette</item>
+        <item>Standard</item>
+        <item>Hart</item>
+    </string-array>
+    <string-array name="cmd_Contrast_string">
+        <item>Vignette</item>
+        <item>Standard</item>
+        <item>Hart</item>
+    </string-array>
+    <string-array name="cmd_Digital_Effect_string">
+        <item>Aus</item>
+        <item>Kunst</item>
+        <item>Sepia</item>
+        <item>Negativ</item>
+        <item>S/W</item>
+        <item>Lebhaft</item>
+    </string-array>
+    <string-array name="cmd_Flicker_string">
+        <item>Auto</item>
+        <item>60Hz</item>
+        <item>50Hz</item>
+    </string-array>
+    <string-array name="cmd_Photo_Quality_string">
+        <item>Sehr gut</item>
+        <item>Gut</item>
+        <item>Normal</item>
+        <item>Auto</item>
+    </string-array>
+    <string-array name="cmd_Photo_Stamp_string">
+        <item>Aus</item>
+        <item>Datum</item>
+        <item>Uhrzeit</item>
+        <item>Datum und Uhrzeit</item>
+    </string-array>
+    <string-array name="cmd_Video_Quality_string">
+        <item>Sehr gut</item>
+        <item>Gut</item>
+        <item>Normal</item>
+    </string-array>
+    <string-array name="cmd_Video_Stamp_string">
+        <item>Aus</item>
+        <item>Datum</item>
+        <item>Uhrzeit</item>
+        <item>Datum und Uhrzeit</item>
+    </string-array>
+    <string-array name="cmd_Video_Output_System_string">
+        <item>NTSC_30</item>
+        <item>PAL_25</item>
+    </string-array>
+    <string-array name="item_Set_Data_Time_string">
+        <item>Datum einstellen</item>
+        <item>Uhrzeit einstellen</item>
+    </string-array>
+    <string-array name="item_crop_setting_size">
+        <item>1:1</item>
+        <item>2:3</item>
+        <item>3:2</item>
+        <item>4:3</item>
+        <item>3:4</item>
+        <item>16:9</item>
+        <item>9:16</item>
+        <item>Frei</item>
+    </string-array>
+    <string-array name="item_setting_content_access">
+        <item>Schnell-Download</item>
+        <item>Originaldateien</item>
+    </string-array>
+</resources>

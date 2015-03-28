@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/device_title_bar" android:background="@drawable/top_bar_bg_repeat" android:layout_width="fill_parent" android:layout_height="@dimen/MediaPlus_TitleBar_Height" android:layout_alignParentTop="true">
+        <ImageView android:id="@id/device_back" android:background="@drawable/media_plus_btn_back" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/title_bar_divider" android:layout_toRightOf="@id/device_back" android:layout_centerVertical="true" />
+        <TextView android:textSize="@dimen/Title_Item_Text_Size" android:textColor="#ffffffff" android:id="@id/text_current_index" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ids_settings_select_device" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <ListView android:gravity="center" android:id="@id/device_list" android:background="@drawable/list_bg_repeart" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scrollingCache="false" android:horizontalSpacing="5.0px" android:verticalSpacing="5.0px" android:stretchMode="spacingWidthUniform" android:numColumns="auto_fit" android:divider="@drawable/list_line" android:layout_above="@id/search_button" android:layout_below="@id/device_title_bar" />
+    <Button android:id="@id/search_button" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/ids_common_refresh" android:layout_alignParentBottom="true" />
+</RelativeLayout>

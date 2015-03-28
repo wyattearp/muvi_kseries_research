@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@drawable/aee_whole_bg_repeat" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/stream_title_layout" android:background="@drawable/video_stream_aee_title_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+        <TextView android:textSize="@dimen/aee_preview_title_text_size" android:id="@id/stream_title_state_big" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="VIDEO" android:layout_centerInParent="true" />
+        <ImageView android:id="@id/stream_btn_play_back" android:layout_width="@dimen/aee_full_playback_btn_width" android:layout_height="@dimen/aee_full_playback_btn_height" android:layout_marginRight="10.0dip" android:src="@drawable/aee_full_btn_play_back" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/stream_preview_bar" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/stream_state_btns_bar" android:layout_below="@id/stream_title_layout">
+        <RelativeLayout android:id="@id/stream_preview_layout" android:background="@drawable/aee_full_preview_bg_port" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <com.arcsoft.videostream.VideoView android:id="@id/video_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <ImageView android:id="@id/stream_state_icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+            <TextView android:id="@id/stream_state_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="connect" android:layout_centerInParent="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <RelativeLayout android:gravity="center_vertical" android:id="@id/stream_info_layout" android:background="@drawable/aee_full_title_bg_port" android:layout_width="fill_parent" android:layout_height="@dimen/Camera_Full_Info_Bar_Height_Port" android:layout_below="@id/stream_title_layout">
+        <ImageView android:id="@id/stream_camera_state_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_alignParentLeft="true" />
+        <TextView android:textSize="12.0sp" android:gravity="center_vertical" android:id="@id/stream_camera_resolution_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_toRightOf="@id/stream_camera_state_view" />
+        <ImageView android:id="@id/stream_camera_wifi" android:background="@drawable/aee_stream_wifi_04" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:layout_toLeftOf="@id/stream_camera_battery" />
+        <ImageView android:id="@id/stream_camera_battery" android:background="@drawable/aee_stream_icn_battery_charge" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/stream_state_btns_bar" android:background="@drawable/aee_full_state_bar_port" android:layout_width="fill_parent" android:layout_height="@dimen/aee_full_state_bar_height_port" android:layout_alignParentBottom="true">
+        <TextView android:id="@id/stream_camera_space" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:text="2H30" android:singleLine="true" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/stream_state_btn_layout_video" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_centerInParent="true">
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:layout_weight="1.0">
+                <TextView android:textSize="@dimen/aee_full_cemara_index_text_size" android:gravity="center_horizontal" android:id="@id/stream_camera_file_size" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="00:00" android:singleLine="true" android:layout_centerInParent="true" />
+                <TextView android:textSize="@dimen/aee_full_cemara_index_text_size" android:gravity="center_horizontal" android:id="@id/stream_camera_index" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="001" android:singleLine="true" android:layout_centerInParent="true" />
+            </RelativeLayout>
+            <ImageView android:id="@id/stream_execute_btn" android:background="@drawable/aee_full_btn_video" android:layout_width="@dimen/aee_full_execute_btn_width" android:layout_height="@dimen/aee_full_execute_btn_height" android:scaleType="fitXY" android:layout_centerInParent="true" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

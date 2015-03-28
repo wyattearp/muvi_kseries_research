@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/scrollbox_bg" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/Setting_Item_Text_Size" android:textColor="#ffffffff" android:gravity="left" android:id="@id/cur_cmd_title" android:paddingLeft="10.0dip" android:paddingTop="10.0dip" android:paddingRight="10.0dip" android:paddingBottom="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ids_settings_select_device" />
+    <com.arcsoft.mediaplus.widget.NumricalSeekBar android:layout_gravity="center" android:id="@id/cmd_value_bar" android:paddingLeft="8.0dip" android:paddingTop="@dimen/Cmd_seekBar_Padding_top" android:paddingRight="8.0dip" android:layout_width="@dimen/Cmd_seekBar_Width" android:layout_height="@dimen/Cmd_seekBar_Height" android:layout_marginBottom="10.0dip" android:max="100" android:progressDrawable="@drawable/cmd_progress" android:thumb="@drawable/cmd_progress_thumb" />
+</LinearLayout>

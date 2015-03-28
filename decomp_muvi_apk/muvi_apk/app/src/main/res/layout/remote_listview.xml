@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.arcsoft.mediaplus.RemoteListView android:gravity="center" android:id="@id/remote_listview" android:background="@drawable/list_bg_repeart" android:layout_width="fill_parent" android:layout_height="fill_parent" android:horizontalSpacing="6.0dip" android:verticalSpacing="6.0dip" android:columnWidth="@dimen/MediaPlus_GridItem_Thumb_Mask_Width" android:numColumns="auto_fit" android:fadeScrollbars="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" />
